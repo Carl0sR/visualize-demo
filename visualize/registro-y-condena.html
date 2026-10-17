@@ -1,0 +1,57 @@
+<div id="juvenil-registros">
+<h3>Justicia juvenil · qué cuenta cada registro</h3>
+<label class="form-label" for="jj-universo">Universo estadístico
+<select class="form-select" id="jj-universo">
+<option value="actividad">Actividad · Fiscalía</option>
+<option value="condenas">Condenas · INE</option>
+<option value="conformidad">Conformidad · denominador</option>
+</select></label>
+<div id="jj-actividad-panel" aria-label="Actividad de Fiscalía">
+<div class="viz-grid">
+<div class="card viz-stat"><div>Diligencias preliminares</div><div class="viz-stat-value tabular-nums">74.538</div><div class="text-small">2025 · +10,6 % anual</div></div>
+<div class="card viz-stat"><div>Expedientes de reforma</div><div class="viz-stat-value tabular-nums">26.084</div><div class="text-small">2025 · +5,4 % anual</div></div>
+<div class="card viz-stat"><div>Expedientes de ejecución</div><div class="viz-stat-value tabular-nums">14.072</div><div class="text-small">2025 · +4,2 % anual</div></div>
+</div>
+<div class="text-small">Unidades distintas; los totales anuales no siguen a los mismos casos.</div>
+<a href="https://www.fiscal.es/memorias/memoria2026/FISCALIA_SITE/capitulo_III/cap_III_6_2.html" target="_blank" rel="noopener noreferrer">Fuente: FGE · Memoria 2026, actividad de 2025</a>
+</div>
+<div id="jj-condenas-panel" aria-label="Condenas registradas" hidden>
+<div class="viz-grid">
+<div class="card viz-stat"><div>Infracciones penales</div><div class="viz-stat-value tabular-nums">24.279</div><div class="text-small">Inscritas en 2025 · −1,1 % anual</div></div>
+<div class="card viz-stat"><div>Personas menores condenadas</div><div class="viz-stat-value tabular-nums">13.245</div><div class="text-small">Una persona puede tener varias infracciones</div></div>
+</div>
+<div class="text-small">Condenas firmes registradas en 2025 por hechos de ese año o anteriores.</div>
+<a href="https://www.ine.es/dyngs/Prensa/EPCAEPCM2025.htm" target="_blank" rel="noopener noreferrer">Fuente: INE · resultados de 2025</a>
+</div>
+<div id="jj-conformidad-panel" aria-label="Denominador de las conformidades" hidden>
+<div class="viz-grid">
+<div class="card viz-stat"><div>Entre las condenatorias</div><div class="viz-stat-value tabular-nums">78,4 %</div><div class="text-small">10.857 de 13.851 sentencias</div></div>
+<div class="card viz-stat"><div>Entre todas las sentencias</div><div class="viz-stat-value tabular-nums">72,1 %</div><div class="text-small">10.857 de 15.066 sentencias</div></div>
+</div>
+<div class="text-small">Mismo numerador, distinta pregunta. Sentencias por conformidad · FGE 2025.</div>
+</div>
+<hr>
+<a href="https://carl0sr.github.io/visualize-demo/" target="_blank" rel="noopener noreferrer">Abrir el recorrido completo de doce capítulos ↗</a>
+</div>
+
+<script>
+(() => {
+const root = document.getElementById('juvenil-registros');
+const select = root.querySelector('#jj-universo');
+const views = ['actividad', 'condenas', 'conformidad'];
+function show(value) {
+  if (!views.includes(value)) value = 'actividad';
+  select.value = value;
+  views.forEach(view => { root.querySelector('#jj-' + view + '-panel').hidden = view !== value; });
+}
+show(window.openai?.widgetState?.modelContent?.universo);
+select.addEventListener('change', () => {
+  show(select.value);
+  window.openai?.setWidgetState?.({modelContent:{universo:select.value},privateContent:null})?.catch(() => {});
+});
+window.addEventListener('openai:set_globals', event => {
+  const state = event.detail?.globals?.widgetState;
+  if (state) show(state.modelContent?.universo);
+});
+})();
+</script>

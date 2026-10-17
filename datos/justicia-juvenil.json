@@ -1,0 +1,1912 @@
+{
+  "version": "2026-10-17",
+  "year": 2025,
+  "categories": [
+    {
+      "id": "total",
+      "name": "Total Infracciones",
+      "age": {
+        "14 años": 4358,
+        "15 años": 5843,
+        "16 años": 6904,
+        "17 años": 7174
+      },
+      "sex": {
+        "Hombres": 19762,
+        "Mujeres": 4517
+      },
+      "nationality": {
+        "Española": 18627,
+        "Extranjera": 5652
+      },
+      "total": 24279
+    },
+    {
+      "id": "1",
+      "name": "Homicidio y sus formas",
+      "age": {
+        "14 años": 9,
+        "15 años": 18,
+        "16 años": 41,
+        "17 años": 34
+      },
+      "sex": {
+        "Hombres": 96,
+        "Mujeres": 6
+      },
+      "nationality": {
+        "Española": 71,
+        "Extranjera": 31
+      },
+      "total": 102
+    },
+    {
+      "id": "3",
+      "name": "Lesiones",
+      "age": {
+        "14 años": 1428,
+        "15 años": 1887,
+        "16 años": 2291,
+        "17 años": 2498
+      },
+      "sex": {
+        "Hombres": 6134,
+        "Mujeres": 1970
+      },
+      "nationality": {
+        "Española": 6219,
+        "Extranjera": 1885
+      },
+      "total": 8104
+    },
+    {
+      "id": "6",
+      "name": "Contra la libertad",
+      "age": {
+        "14 años": 553,
+        "15 años": 697,
+        "16 años": 774,
+        "17 años": 689
+      },
+      "sex": {
+        "Hombres": 2035,
+        "Mujeres": 678
+      },
+      "nationality": {
+        "Española": 2067,
+        "Extranjera": 646
+      },
+      "total": 2713
+    },
+    {
+      "id": "6.1",
+      "name": "Detenciones ilegales y secuestro",
+      "age": {
+        "14 años": 2,
+        "15 años": 13,
+        "16 años": 13,
+        "17 años": 5
+      },
+      "sex": {
+        "Hombres": 31,
+        "Mujeres": 2
+      },
+      "nationality": {
+        "Española": 31,
+        "Extranjera": 2
+      },
+      "total": 33
+    },
+    {
+      "id": "6.2",
+      "name": "Amenazas",
+      "age": {
+        "14 años": 422,
+        "15 años": 571,
+        "16 años": 665,
+        "17 años": 614
+      },
+      "sex": {
+        "Hombres": 1703,
+        "Mujeres": 569
+      },
+      "nationality": {
+        "Española": 1690,
+        "Extranjera": 582
+      },
+      "total": 2272
+    },
+    {
+      "id": "6.3",
+      "name": "Coacciones",
+      "age": {
+        "14 años": 129,
+        "15 años": 113,
+        "16 años": 96,
+        "17 años": 70
+      },
+      "sex": {
+        "Hombres": 301,
+        "Mujeres": 107
+      },
+      "nationality": {
+        "Española": 346,
+        "Extranjera": 62
+      },
+      "total": 408
+    },
+    {
+      "id": "7",
+      "name": "Torturas e integridad moral",
+      "age": {
+        "14 años": 378,
+        "15 años": 364,
+        "16 años": 357,
+        "17 años": 247
+      },
+      "sex": {
+        "Hombres": 1010,
+        "Mujeres": 336
+      },
+      "nationality": {
+        "Española": 1193,
+        "Extranjera": 153
+      },
+      "total": 1346
+    },
+    {
+      "id": "8",
+      "name": "Contra la libertad e indemnidad sexuales",
+      "age": {
+        "14 años": 265,
+        "15 años": 257,
+        "16 años": 181,
+        "17 años": 138
+      },
+      "sex": {
+        "Hombres": 823,
+        "Mujeres": 18
+      },
+      "nationality": {
+        "Española": 676,
+        "Extranjera": 165
+      },
+      "total": 841
+    },
+    {
+      "id": "8.1",
+      "name": "Agresiones sexuales",
+      "age": {
+        "14 años": 44,
+        "15 años": 70,
+        "16 años": 75,
+        "17 años": 61
+      },
+      "sex": {
+        "Hombres": 247,
+        "Mujeres": 3
+      },
+      "nationality": {
+        "Española": 178,
+        "Extranjera": 72
+      },
+      "total": 250
+    },
+    {
+      "id": "8.2",
+      "name": "Agresiones sexuales a menores de 16 años",
+      "age": {
+        "14 años": 188,
+        "15 años": 160,
+        "16 años": 84,
+        "17 años": 59
+      },
+      "sex": {
+        "Hombres": 484,
+        "Mujeres": 7
+      },
+      "nationality": {
+        "Española": 417,
+        "Extranjera": 74
+      },
+      "total": 491
+    },
+    {
+      "id": "8.5",
+      "name": "Prostitución y corrupción menores",
+      "age": {
+        "14 años": 23,
+        "15 años": 15,
+        "16 años": 17,
+        "17 años": 10
+      },
+      "sex": {
+        "Hombres": 62,
+        "Mujeres": 3
+      },
+      "nationality": {
+        "Española": 53,
+        "Extranjera": 12
+      },
+      "total": 65
+    },
+    {
+      "id": "8.99",
+      "name": "Otros delitos contra la libertad e indemnidad sexuales",
+      "age": {
+        "14 años": 10,
+        "15 años": 12,
+        "16 años": 5,
+        "17 años": 8
+      },
+      "sex": {
+        "Hombres": 30,
+        "Mujeres": 5
+      },
+      "nationality": {
+        "Española": 28,
+        "Extranjera": 7
+      },
+      "total": 35
+    },
+    {
+      "id": "10",
+      "name": "Contra la intimidad, derecho a la propia imagen",
+      "age": {
+        "14 años": 81,
+        "15 años": 65,
+        "16 años": 64,
+        "17 años": 48
+      },
+      "sex": {
+        "Hombres": 201,
+        "Mujeres": 57
+      },
+      "nationality": {
+        "Española": 226,
+        "Extranjera": 32
+      },
+      "total": 258
+    },
+    {
+      "id": "10.1",
+      "name": "Descubrimiento y revelación de secretos",
+      "age": {
+        "14 años": 75,
+        "15 años": 47,
+        "16 años": 49,
+        "17 años": 32
+      },
+      "sex": {
+        "Hombres": 154,
+        "Mujeres": 49
+      },
+      "nationality": {
+        "Española": 184,
+        "Extranjera": 19
+      },
+      "total": 203
+    },
+    {
+      "id": "10.2",
+      "name": "Allanamiento de morada",
+      "age": {
+        "14 años": 6,
+        "15 años": 18,
+        "16 años": 15,
+        "17 años": 16
+      },
+      "sex": {
+        "Hombres": 47,
+        "Mujeres": 8
+      },
+      "nationality": {
+        "Española": 42,
+        "Extranjera": 13
+      },
+      "total": 55
+    },
+    {
+      "id": "13",
+      "name": "Contra el patrimonio y el orden socioeconómico",
+      "age": {
+        "14 años": 1290,
+        "15 años": 1959,
+        "16 años": 2308,
+        "17 años": 2388
+      },
+      "sex": {
+        "Hombres": 6894,
+        "Mujeres": 1051
+      },
+      "nationality": {
+        "Española": 5851,
+        "Extranjera": 2094
+      },
+      "total": 7945
+    },
+    {
+      "id": "13.1",
+      "name": "Hurtos",
+      "age": {
+        "14 años": 323,
+        "15 años": 493,
+        "16 años": 609,
+        "17 años": 598
+      },
+      "sex": {
+        "Hombres": 1540,
+        "Mujeres": 483
+      },
+      "nationality": {
+        "Española": 1472,
+        "Extranjera": 551
+      },
+      "total": 2023
+    },
+    {
+      "id": "13.2",
+      "name": "Robos",
+      "age": {
+        "14 años": 591,
+        "15 años": 882,
+        "16 años": 1044,
+        "17 años": 1125
+      },
+      "sex": {
+        "Hombres": 3310,
+        "Mujeres": 332
+      },
+      "nationality": {
+        "Española": 2600,
+        "Extranjera": 1042
+      },
+      "total": 3642
+    },
+    {
+      "id": "13.2.1",
+      "name": "Robo con violencia",
+      "age": {
+        "14 años": 418,
+        "15 años": 601,
+        "16 años": 694,
+        "17 años": 708
+      },
+      "sex": {
+        "Hombres": 2156,
+        "Mujeres": 265
+      },
+      "nationality": {
+        "Española": 1679,
+        "Extranjera": 742
+      },
+      "total": 2421
+    },
+    {
+      "id": "13.2.2",
+      "name": "Robo con fuerza",
+      "age": {
+        "14 años": 173,
+        "15 años": 281,
+        "16 años": 350,
+        "17 años": 417
+      },
+      "sex": {
+        "Hombres": 1154,
+        "Mujeres": 67
+      },
+      "nationality": {
+        "Española": 921,
+        "Extranjera": 300
+      },
+      "total": 1221
+    },
+    {
+      "id": "13.4",
+      "name": "Robo y hurto de uso de vehículo",
+      "age": {
+        "14 años": 78,
+        "15 años": 134,
+        "16 años": 133,
+        "17 años": 118
+      },
+      "sex": {
+        "Hombres": 455,
+        "Mujeres": 8
+      },
+      "nationality": {
+        "Española": 390,
+        "Extranjera": 73
+      },
+      "total": 463
+    },
+    {
+      "id": "13.5",
+      "name": "Usurpación",
+      "age": {
+        "14 años": 4,
+        "15 años": 7,
+        "16 años": 16,
+        "17 años": 9
+      },
+      "sex": {
+        "Hombres": 28,
+        "Mujeres": 8
+      },
+      "nationality": {
+        "Española": 29,
+        "Extranjera": 7
+      },
+      "total": 36
+    },
+    {
+      "id": "13.6",
+      "name": "Defraudaciones",
+      "age": {
+        "14 años": 70,
+        "15 años": 106,
+        "16 años": 164,
+        "17 años": 151
+      },
+      "sex": {
+        "Hombres": 416,
+        "Mujeres": 75
+      },
+      "nationality": {
+        "Española": 377,
+        "Extranjera": 114
+      },
+      "total": 491
+    },
+    {
+      "id": "13.9",
+      "name": "Daños",
+      "age": {
+        "14 años": 214,
+        "15 años": 293,
+        "16 años": 311,
+        "17 años": 330
+      },
+      "sex": {
+        "Hombres": 1012,
+        "Mujeres": 136
+      },
+      "nationality": {
+        "Española": 874,
+        "Extranjera": 274
+      },
+      "total": 1148
+    },
+    {
+      "id": "13.14",
+      "name": "Receptación y blanqueo de capitales",
+      "age": {
+        "14 años": 5,
+        "15 años": 27,
+        "16 años": 23,
+        "17 años": 37
+      },
+      "sex": {
+        "Hombres": 87,
+        "Mujeres": 5
+      },
+      "nationality": {
+        "Española": 72,
+        "Extranjera": 20
+      },
+      "total": 92
+    },
+    {
+      "id": "13.99",
+      "name": "Otros delitos contra el patrimonio y orden socioeconómico",
+      "age": {
+        "14 años": 5,
+        "15 años": 17,
+        "16 años": 8,
+        "17 años": 20
+      },
+      "sex": {
+        "Hombres": 46,
+        "Mujeres": 4
+      },
+      "nationality": {
+        "Española": 37,
+        "Extranjera": 13
+      },
+      "total": 50
+    },
+    {
+      "id": "17",
+      "name": "Contra la seguridad colectiva",
+      "age": {
+        "14 años": 118,
+        "15 años": 270,
+        "16 años": 368,
+        "17 años": 533
+      },
+      "sex": {
+        "Hombres": 1224,
+        "Mujeres": 65
+      },
+      "nationality": {
+        "Española": 1082,
+        "Extranjera": 207
+      },
+      "total": 1289
+    },
+    {
+      "id": "17.3",
+      "name": "Contra la salud pública",
+      "age": {
+        "14 años": 26,
+        "15 años": 62,
+        "16 años": 99,
+        "17 años": 165
+      },
+      "sex": {
+        "Hombres": 322,
+        "Mujeres": 30
+      },
+      "nationality": {
+        "Española": 269,
+        "Extranjera": 83
+      },
+      "total": 352
+    },
+    {
+      "id": "17.4",
+      "name": "Contra la seguridad vial",
+      "age": {
+        "14 años": 90,
+        "15 años": 204,
+        "16 años": 267,
+        "17 años": 367
+      },
+      "sex": {
+        "Hombres": 897,
+        "Mujeres": 31
+      },
+      "nationality": {
+        "Española": 804,
+        "Extranjera": 124
+      },
+      "total": 928
+    },
+    {
+      "id": "17.99",
+      "name": "Otros delitos contra la seguridad colectiva",
+      "age": {
+        "14 años": 2,
+        "15 años": 4,
+        "16 años": 2,
+        "17 años": 1
+      },
+      "sex": {
+        "Hombres": 5,
+        "Mujeres": 4
+      },
+      "nationality": {
+        "Española": 9,
+        "Extranjera": 0
+      },
+      "total": 9
+    },
+    {
+      "id": "18",
+      "name": "Falsedades",
+      "age": {
+        "14 años": 8,
+        "15 años": 14,
+        "16 años": 16,
+        "17 años": 25
+      },
+      "sex": {
+        "Hombres": 58,
+        "Mujeres": 5
+      },
+      "nationality": {
+        "Española": 45,
+        "Extranjera": 18
+      },
+      "total": 63
+    },
+    {
+      "id": "18.2",
+      "name": "Falsedades documentales",
+      "age": {
+        "14 años": 4,
+        "15 años": 10,
+        "16 años": 10,
+        "17 años": 16
+      },
+      "sex": {
+        "Hombres": 37,
+        "Mujeres": 3
+      },
+      "nationality": {
+        "Española": 24,
+        "Extranjera": 16
+      },
+      "total": 40
+    },
+    {
+      "id": "18.99",
+      "name": "Otros delitos de las falsedades",
+      "age": {
+        "14 años": 4,
+        "15 años": 4,
+        "16 años": 6,
+        "17 años": 9
+      },
+      "sex": {
+        "Hombres": 21,
+        "Mujeres": 2
+      },
+      "nationality": {
+        "Española": 21,
+        "Extranjera": 2
+      },
+      "total": 23
+    },
+    {
+      "id": "20",
+      "name": "Contra la Administración de Justicia",
+      "age": {
+        "14 años": 49,
+        "15 años": 72,
+        "16 años": 167,
+        "17 años": 168
+      },
+      "sex": {
+        "Hombres": 348,
+        "Mujeres": 108
+      },
+      "nationality": {
+        "Española": 358,
+        "Extranjera": 98
+      },
+      "total": 456
+    },
+    {
+      "id": "20.5",
+      "name": "Acusación y denuncia falsas y simulación de delitos",
+      "age": {
+        "14 años": 4,
+        "15 años": 4,
+        "16 años": 7,
+        "17 años": 2
+      },
+      "sex": {
+        "Hombres": 7,
+        "Mujeres": 10
+      },
+      "nationality": {
+        "Española": 13,
+        "Extranjera": 4
+      },
+      "total": 17
+    },
+    {
+      "id": "20.7",
+      "name": "Obstrucción a la justicia",
+      "age": {
+        "14 años": 15,
+        "15 años": 11,
+        "16 años": 22,
+        "17 años": 23
+      },
+      "sex": {
+        "Hombres": 45,
+        "Mujeres": 26
+      },
+      "nationality": {
+        "Española": 63,
+        "Extranjera": 8
+      },
+      "total": 71
+    },
+    {
+      "id": "20.8",
+      "name": "Quebrantamiento de condena",
+      "age": {
+        "14 años": 27,
+        "15 años": 53,
+        "16 años": 135,
+        "17 años": 136
+      },
+      "sex": {
+        "Hombres": 283,
+        "Mujeres": 68
+      },
+      "nationality": {
+        "Española": 267,
+        "Extranjera": 84
+      },
+      "total": 351
+    },
+    {
+      "id": "20.99",
+      "name": "Otros delitos contra la Administración de Justicia",
+      "age": {
+        "14 años": 3,
+        "15 años": 4,
+        "16 años": 3,
+        "17 años": 7
+      },
+      "sex": {
+        "Hombres": 13,
+        "Mujeres": 4
+      },
+      "nationality": {
+        "Española": 15,
+        "Extranjera": 2
+      },
+      "total": 17
+    },
+    {
+      "id": "22",
+      "name": "Contra el orden público",
+      "age": {
+        "14 años": 149,
+        "15 años": 201,
+        "16 años": 303,
+        "17 años": 368
+      },
+      "sex": {
+        "Hombres": 817,
+        "Mujeres": 204
+      },
+      "nationality": {
+        "Española": 722,
+        "Extranjera": 299
+      },
+      "total": 1021
+    },
+    {
+      "id": "22.2",
+      "name": "Atentados contra la autoridad y de la resistencia y desobediencia",
+      "age": {
+        "14 años": 131,
+        "15 años": 174,
+        "16 años": 261,
+        "17 años": 332
+      },
+      "sex": {
+        "Hombres": 700,
+        "Mujeres": 198
+      },
+      "nationality": {
+        "Española": 645,
+        "Extranjera": 253
+      },
+      "total": 898
+    },
+    {
+      "id": "22.2.1",
+      "name": "Atentados contra la autoridad",
+      "age": {
+        "14 años": 96,
+        "15 años": 124,
+        "16 años": 179,
+        "17 años": 217
+      },
+      "sex": {
+        "Hombres": 464,
+        "Mujeres": 152
+      },
+      "nationality": {
+        "Española": 443,
+        "Extranjera": 173
+      },
+      "total": 616
+    },
+    {
+      "id": "22.2.2",
+      "name": "Resistencia y desobediencia",
+      "age": {
+        "14 años": 35,
+        "15 años": 50,
+        "16 años": 82,
+        "17 años": 115
+      },
+      "sex": {
+        "Hombres": 236,
+        "Mujeres": 46
+      },
+      "nationality": {
+        "Española": 202,
+        "Extranjera": 80
+      },
+      "total": 282
+    },
+    {
+      "id": "22.5",
+      "name": "Tenencia, tráfico, depósito de armas y explosivos",
+      "age": {
+        "14 años": 10,
+        "15 años": 13,
+        "16 años": 19,
+        "17 años": 14
+      },
+      "sex": {
+        "Hombres": 55,
+        "Mujeres": 1
+      },
+      "nationality": {
+        "Española": 43,
+        "Extranjera": 13
+      },
+      "total": 56
+    },
+    {
+      "id": "22.99",
+      "name": "Otros delitos contra el orden público",
+      "age": {
+        "14 años": 8,
+        "15 años": 14,
+        "16 años": 23,
+        "17 años": 22
+      },
+      "sex": {
+        "Hombres": 62,
+        "Mujeres": 5
+      },
+      "nationality": {
+        "Española": 34,
+        "Extranjera": 33
+      },
+      "total": 67
+    },
+    {
+      "id": "R",
+      "name": "Resto de delitos",
+      "age": {
+        "14 años": 30,
+        "15 años": 39,
+        "16 años": 34,
+        "17 años": 38
+      },
+      "sex": {
+        "Hombres": 122,
+        "Mujeres": 19
+      },
+      "nationality": {
+        "Española": 117,
+        "Extranjera": 24
+      },
+      "total": 141
+    }
+  ],
+  "territories": [
+    {
+      "id": 1,
+      "name": "Andalucía",
+      "total": 4028,
+      "rate": 10,
+      "subset": false
+    },
+    {
+      "id": 2,
+      "name": "Aragón",
+      "total": 983,
+      "rate": 16.9,
+      "subset": false
+    },
+    {
+      "id": 3,
+      "name": "Asturias, Principado de",
+      "total": 837,
+      "rate": 23.4,
+      "subset": false
+    },
+    {
+      "id": 4,
+      "name": "Balears, Illes",
+      "total": 882,
+      "rate": 16.6,
+      "subset": true
+    },
+    {
+      "id": 5,
+      "name": "Canarias",
+      "total": 1131,
+      "rate": 12.4,
+      "subset": false
+    },
+    {
+      "id": 6,
+      "name": "Cantabria",
+      "total": 198,
+      "rate": 8.1,
+      "subset": false
+    },
+    {
+      "id": 7,
+      "name": "Castilla y León",
+      "total": 1534,
+      "rate": 17.1,
+      "subset": true
+    },
+    {
+      "id": 8,
+      "name": "Castilla - La Mancha",
+      "total": 708,
+      "rate": 7.3,
+      "subset": true
+    },
+    {
+      "id": 9,
+      "name": "Cataluña",
+      "total": 3884,
+      "rate": 10.6,
+      "subset": false
+    },
+    {
+      "id": 10,
+      "name": "Comunitat Valenciana",
+      "total": 3095,
+      "rate": 12.7,
+      "subset": false
+    },
+    {
+      "id": 11,
+      "name": "Extremadura",
+      "total": 503,
+      "rate": 11.6,
+      "subset": true
+    },
+    {
+      "id": 12,
+      "name": "Galicia",
+      "total": 1062,
+      "rate": 10.7,
+      "subset": false
+    },
+    {
+      "id": 13,
+      "name": "Madrid, Comunidad de",
+      "total": 2148,
+      "rate": 6.9,
+      "subset": true
+    },
+    {
+      "id": 14,
+      "name": "Murcia, Región de",
+      "total": 623,
+      "rate": 7.8,
+      "subset": true
+    },
+    {
+      "id": 15,
+      "name": "Navarra, Comunidad Foral de",
+      "total": 462,
+      "rate": 14.6,
+      "subset": false
+    },
+    {
+      "id": 16,
+      "name": "País Vasco",
+      "total": 1110,
+      "rate": 12,
+      "subset": false
+    },
+    {
+      "id": 17,
+      "name": "Rioja, La",
+      "total": 260,
+      "rate": 18,
+      "subset": false
+    },
+    {
+      "id": 18,
+      "name": "Ceuta",
+      "total": 553,
+      "rate": 114.8,
+      "subset": true
+    },
+    {
+      "id": 19,
+      "name": "Melilla",
+      "total": 278,
+      "rate": 54.6,
+      "subset": true
+    }
+  ],
+  "trends": [
+    {
+      "name": "Homicidio y/o asesinato doloso",
+      "values": {
+        "2025": 100,
+        "2024": 120,
+        "2023": 101,
+        "2022": 101,
+        "2021": 88
+      }
+    },
+    {
+      "name": "Lesiones",
+      "values": {
+        "2025": 11393,
+        "2024": 12563,
+        "2023": 12394,
+        "2022": 11628,
+        "2021": 11857
+      }
+    },
+    {
+      "name": "Agresión sexual",
+      "values": {
+        "2025": 3975,
+        "2024": 2940,
+        "2023": 2427,
+        "2022": 974,
+        "2021": 668
+      }
+    },
+    {
+      "name": "Abuso sexual",
+      "values": {
+        "2025": 484,
+        "2024": 343,
+        "2023": 758,
+        "2022": 1973,
+        "2021": 1957
+      }
+    },
+    {
+      "name": "Robos con fuerza",
+      "values": {
+        "2025": 2221,
+        "2024": 2455,
+        "2023": 2503,
+        "2022": 2577,
+        "2021": 2812
+      }
+    },
+    {
+      "name": "Robos con violencia o intimidación",
+      "values": {
+        "2025": 3067,
+        "2024": 3159,
+        "2023": 3545,
+        "2022": 3997,
+        "2021": 3764
+      }
+    },
+    {
+      "name": "Hurtos",
+      "values": {
+        "2025": 6948,
+        "2024": 6516,
+        "2023": 8252,
+        "2022": 7783,
+        "2021": 6561
+      }
+    },
+    {
+      "name": "Daños",
+      "values": {
+        "2025": 2865,
+        "2024": 2894,
+        "2023": 2884,
+        "2022": 2962,
+        "2021": 3361
+      }
+    },
+    {
+      "name": "Contra la salud pública",
+      "values": {
+        "2025": 818,
+        "2024": 771,
+        "2023": 786,
+        "2022": 920,
+        "2021": 722
+      }
+    },
+    {
+      "name": "Conducción etílica/drogas",
+      "values": {
+        "2025": 68,
+        "2024": 72,
+        "2023": 101,
+        "2022": 122,
+        "2021": 71
+      }
+    },
+    {
+      "name": "Conducción temeraria",
+      "values": {
+        "2025": 221,
+        "2024": 158,
+        "2023": 194,
+        "2022": 159,
+        "2021": 120
+      }
+    },
+    {
+      "name": "Conducción sin permiso",
+      "values": {
+        "2025": 2063,
+        "2024": 1736,
+        "2023": 1663,
+        "2022": 1888,
+        "2021": 1923
+      }
+    },
+    {
+      "name": "Violencia doméstica",
+      "values": {
+        "2025": 4038,
+        "2024": 4425,
+        "2023": 4416,
+        "2022": 4332,
+        "2021": 4740
+      }
+    },
+    {
+      "name": "Violencia de género",
+      "values": {
+        "2025": 1023,
+        "2024": 888,
+        "2023": 807,
+        "2022": 727,
+        "2021": 647
+      }
+    },
+    {
+      "name": "Acoso escolar",
+      "values": {
+        "2025": 1407,
+        "2024": 1196,
+        "2023": null,
+        "2022": null,
+        "2021": null
+      }
+    },
+    {
+      "name": "Contra la integridad moral",
+      "values": {
+        "2025": 1364,
+        "2024": 1057,
+        "2023": null,
+        "2022": null,
+        "2021": null
+      }
+    },
+    {
+      "name": "Delitos de odio",
+      "values": {
+        "2025": 115,
+        "2024": 127,
+        "2023": null,
+        "2022": null,
+        "2021": null
+      }
+    },
+    {
+      "name": "Atentado, resistencia y desobediencia grave",
+      "values": {
+        "2025": 1567,
+        "2024": 1240,
+        "2023": 1323,
+        "2022": 1490,
+        "2021": 1658
+      }
+    },
+    {
+      "name": "Otros delitos contra el orden público",
+      "values": {
+        "2025": 328,
+        "2024": 336,
+        "2023": 262,
+        "2022": 380,
+        "2021": 376
+      }
+    },
+    {
+      "name": "Delitos leves contra el patrimonio",
+      "values": {
+        "2025": 4908,
+        "2024": 4984,
+        "2023": 4658,
+        "2022": 4513,
+        "2021": 4796
+      }
+    },
+    {
+      "name": "Delitos leves contra las personas",
+      "values": {
+        "2025": 6648,
+        "2024": 6393,
+        "2023": 6316,
+        "2022": 6191,
+        "2021": 6114
+      }
+    },
+    {
+      "name": "Otras infracciones leves",
+      "values": {
+        "2025": 857,
+        "2024": 994,
+        "2023": 1152,
+        "2022": 799,
+        "2021": 581
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "slide": 6,
+      "label": "13. Contra el patrimonio y el orden socioeconómico",
+      "original": [
+        9356,
+        1802,
+        2261,
+        2661,
+        2632
+      ],
+      "verified": [
+        7945,
+        1290,
+        1959,
+        2308,
+        2388
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  13.1 Hurtos",
+      "original": [
+        2920,
+        632,
+        735,
+        765,
+        788
+      ],
+      "verified": [
+        2023,
+        323,
+        493,
+        609,
+        598
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  13.2 Robos",
+      "original": [
+        4018,
+        741,
+        1022,
+        1172,
+        1083
+      ],
+      "verified": [
+        3642,
+        591,
+        882,
+        1044,
+        1125
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "    13.2.1 Robo con violencia",
+      "original": [
+        2552,
+        480,
+        680,
+        754,
+        638
+      ],
+      "verified": [
+        2421,
+        418,
+        601,
+        694,
+        708
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "    13.2.2 Robo con fuerza",
+      "original": [
+        1466,
+        261,
+        342,
+        418,
+        445
+      ],
+      "verified": [
+        1221,
+        173,
+        281,
+        350,
+        417
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  13.4 Robo y hurto de uso de vehículo",
+      "original": [
+        266,
+        23,
+        62,
+        85,
+        96
+      ],
+      "verified": [
+        463,
+        78,
+        134,
+        133,
+        118
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  13.9 Daños",
+      "original": [
+        1281,
+        261,
+        263,
+        376,
+        381
+      ],
+      "verified": [
+        1148,
+        214,
+        293,
+        311,
+        330
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  13.14 Receptación y blanqueo de capitales",
+      "original": [
+        73,
+        12,
+        19,
+        23,
+        19
+      ],
+      "verified": [
+        92,
+        5,
+        27,
+        23,
+        37
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  13.99 Otros delitos contra el patrimonio",
+      "original": [
+        256,
+        55,
+        45,
+        64,
+        92
+      ],
+      "verified": [
+        50,
+        5,
+        17,
+        8,
+        20
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "17. Contra la seguridad colectiva",
+      "original": [
+        950,
+        81,
+        152,
+        276,
+        441
+      ],
+      "verified": [
+        1289,
+        118,
+        270,
+        368,
+        533
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  17.3 Contra la salud pública",
+      "original": [
+        455,
+        61,
+        98,
+        131,
+        165
+      ],
+      "verified": [
+        352,
+        26,
+        62,
+        99,
+        165
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  17.4 Contra la seguridad vial",
+      "original": [
+        446,
+        14,
+        46,
+        128,
+        258
+      ],
+      "verified": [
+        928,
+        90,
+        204,
+        267,
+        367
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  17.99 Otros delitos seguridad colectiva",
+      "original": [
+        49,
+        6,
+        8,
+        17,
+        18
+      ],
+      "verified": [
+        9,
+        2,
+        4,
+        2,
+        1
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "18. Falsedades",
+      "original": [
+        151,
+        17,
+        30,
+        48,
+        56
+      ],
+      "verified": [
+        63,
+        8,
+        14,
+        16,
+        25
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  18.2 Falsedades documentales",
+      "original": [
+        136,
+        15,
+        27,
+        43,
+        51
+      ],
+      "verified": [
+        40,
+        4,
+        10,
+        10,
+        16
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  18.99 Otros delitos falsedades",
+      "original": [
+        15,
+        2,
+        3,
+        5,
+        5
+      ],
+      "verified": [
+        23,
+        4,
+        4,
+        6,
+        9
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "20. Contra la Administración de Justicia",
+      "original": [
+        1051,
+        128,
+        203,
+        321,
+        399
+      ],
+      "verified": [
+        456,
+        49,
+        72,
+        167,
+        168
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  20.5 Acusación y denuncia falsa",
+      "original": [
+        70,
+        12,
+        18,
+        22,
+        18
+      ],
+      "verified": [
+        17,
+        4,
+        4,
+        7,
+        2
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  20.7 Obstrucción a la justicia",
+      "original": [
+        104,
+        15,
+        24,
+        31,
+        34
+      ],
+      "verified": [
+        71,
+        15,
+        11,
+        22,
+        23
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  20.8 Quebrantamiento de condena",
+      "original": [
+        785,
+        89,
+        142,
+        242,
+        312
+      ],
+      "verified": [
+        351,
+        27,
+        53,
+        135,
+        136
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  20.99 Otros delitos administración de justicia",
+      "original": [
+        92,
+        12,
+        19,
+        26,
+        35
+      ],
+      "verified": [
+        17,
+        3,
+        4,
+        3,
+        7
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "22. Contra el orden público",
+      "original": [
+        1136,
+        241,
+        281,
+        316,
+        298
+      ],
+      "verified": [
+        1021,
+        149,
+        201,
+        303,
+        368
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  22.2 Atentados, resistencia y desobediencia",
+      "original": [
+        937,
+        201,
+        234,
+        261,
+        241
+      ],
+      "verified": [
+        898,
+        131,
+        174,
+        261,
+        332
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "    22.2.1 Atentados contra la autoridad",
+      "original": [
+        464,
+        102,
+        118,
+        129,
+        115
+      ],
+      "verified": [
+        616,
+        96,
+        124,
+        179,
+        217
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "    22.2.2 Resistencia y desobediencia",
+      "original": [
+        473,
+        99,
+        116,
+        132,
+        126
+      ],
+      "verified": [
+        282,
+        35,
+        50,
+        82,
+        115
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  22.5 Tenencia, tráfico de armas",
+      "original": [
+        122,
+        21,
+        28,
+        35,
+        38
+      ],
+      "verified": [
+        56,
+        10,
+        13,
+        19,
+        14
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "  22.99 Otros delitos orden público",
+      "original": [
+        77,
+        19,
+        19,
+        20,
+        19
+      ],
+      "verified": [
+        67,
+        8,
+        14,
+        23,
+        22
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 6,
+      "label": "Resto de delitos",
+      "original": [
+        383,
+        87,
+        86,
+        92,
+        118
+      ],
+      "verified": [
+        141,
+        30,
+        39,
+        34,
+        38
+      ],
+      "source": "ineAge"
+    },
+    {
+      "slide": 9,
+      "label": "Comunitat Valenciana",
+      "original": [
+        2761
+      ],
+      "verified": [
+        3095
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "Extremadura",
+      "original": [
+        421
+      ],
+      "verified": [
+        503
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "Galicia",
+      "original": [
+        1092
+      ],
+      "verified": [
+        1062
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "Comunidad de Madrid",
+      "original": [
+        2512
+      ],
+      "verified": [
+        2148
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "Región de Murcia",
+      "original": [
+        1342
+      ],
+      "verified": [
+        623
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "País Vasco",
+      "original": [
+        995
+      ],
+      "verified": [
+        1110
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "La Rioja",
+      "original": [
+        162
+      ],
+      "verified": [
+        260
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "Ceuta",
+      "original": [
+        182
+      ],
+      "verified": [
+        553
+      ],
+      "source": "ineTerritory"
+    },
+    {
+      "slide": 9,
+      "label": "Melilla",
+      "original": [
+        165
+      ],
+      "verified": [
+        278
+      ],
+      "source": "ineTerritory"
+    }
+  ],
+  "sources": {
+    "ine": {
+      "title": "INE · Población condenada, resultados 2025",
+      "url": "https://www.ine.es/dyngs/Prensa/EPCAEPCM2025.htm",
+      "scope": "Inscripciones de condenas firmes; hechos de 2025 o anteriores. Publicación: 14/07/2026."
+    },
+    "ineAge": {
+      "title": "INE · Tabla 26028, infracciones según edad",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=26028",
+      "scope": "Recuentos de infracciones. Edad a la primera comisión. Año de inscripción 2025."
+    },
+    "ineSex": {
+      "title": "INE · Tabla 26027, infracciones según sexo",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=26027",
+      "scope": "Infracciones, no número de personas. Año 2025."
+    },
+    "ineNationality": {
+      "title": "INE · Tabla 26029, infracciones según nacionalidad",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=26029",
+      "scope": "Nacionalidad de las personas a las que se atribuyen las infracciones; recuentos de infracciones."
+    },
+    "ineTerritory": {
+      "title": "INE · Tabla 26030, lugar de condena",
+      "url": "https://www.ine.es/jaxiT3/Tabla.htm?t=26030",
+      "scope": "Territorio definido por lugar de condena. Año 2025."
+    },
+    "fge": {
+      "title": "FGE · Memoria 2026, capítulo III.6.2",
+      "url": "https://www.fiscal.es/memorias/memoria2026/FISCALIA_SITE/capitulo_III/cap_III_6_2.html",
+      "scope": "Actividad de las secciones de menores durante 2025. Series procesales, no una cohorte de condenas."
+    },
+    "fgeContext": {
+      "title": "FGE · Memoria 2024, capítulo V.1.3",
+      "url": "https://www.fiscal.es/memorias/memoria2024/FISCALIA_SITE/capitulo_V/cap_V_1_3.html",
+      "scope": "Reflexión institucional sobre menores y redes. Contexto cualitativo, no medición causal."
+    },
+    "madrid": {
+      "title": "Fiscalía de Madrid · Memoria 2024, capítulo III",
+      "url": "https://www.fiscal.es/documents/d/fiscal/memoria2024-fiscaliacmadrid?download=false",
+      "scope": "Contexto territorial sobre menores y redes sociales. No extrapolar como prevalencia nacional."
+    }
+  }
+}

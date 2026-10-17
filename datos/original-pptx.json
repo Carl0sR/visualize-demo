@@ -1,0 +1,817 @@
+{
+  "age": {
+    "headers": [
+      "Criminología y Tipología Delictiva",
+      "Total Infracciones",
+      "% 14 años",
+      "% 15 años",
+      "% 16 años",
+      "% 17 años"
+    ],
+    "rows": [
+      [
+        "TOTAL INFRACCIONES / DELITOS",
+        "24.279",
+        "4.358",
+        "5.843",
+        "6.904",
+        "7.174"
+      ],
+      [
+        "1. Homicidio y sus formas",
+        "102",
+        "9",
+        "18",
+        "41",
+        "34"
+      ],
+      [
+        "3. Lesiones",
+        "8.104",
+        "1.428",
+        "1.887",
+        "2.291",
+        "2.498"
+      ],
+      [
+        "6. Contra la libertad",
+        "2.713",
+        "553",
+        "697",
+        "774",
+        "689"
+      ],
+      [
+        "  6.1 Detenciones ilegales y secuestro",
+        "33",
+        "2",
+        "13",
+        "13",
+        "5"
+      ],
+      [
+        "  6.2 Amenazas (incluye Amenazas en Redes Sociales)",
+        "2.272",
+        "422",
+        "571",
+        "665",
+        "614"
+      ],
+      [
+        "  6.3 Coacciones (incluye Coacciones en Entorno Digital)",
+        "408",
+        "129",
+        "113",
+        "96",
+        "70"
+      ],
+      [
+        "7. Torturas e integridad moral (Acoso Escolar / Ciberbullying)",
+        "1.346",
+        "378",
+        "364",
+        "357",
+        "247"
+      ],
+      [
+        "8. Contra la libertad e indemnidad sexuales",
+        "841",
+        "265",
+        "257",
+        "181",
+        "138"
+      ],
+      [
+        "  8.1 Agresiones sexuales",
+        "250",
+        "44",
+        "70",
+        "75",
+        "61"
+      ],
+      [
+        "  8.2 Agresiones sexuales a menores de 16 años",
+        "491",
+        "188",
+        "160",
+        "84",
+        "59"
+      ],
+      [
+        "  8.5 Prostitución, corrupción de menores y Grooming",
+        "65",
+        "23",
+        "15",
+        "17",
+        "10"
+      ],
+      [
+        "  8.99 Otros delitos contra la libertad e indemnidad sexuales",
+        "35",
+        "10",
+        "12",
+        "5",
+        "8"
+      ],
+      [
+        "10. Contra la intimidad, derecho a la propia imagen",
+        "258",
+        "81",
+        "65",
+        "64",
+        "48"
+      ],
+      [
+        "  10.1 Descubrimiento y revelación de secretos (Sexting / Ciberespionaje)",
+        "203",
+        "75",
+        "47",
+        "49",
+        "32"
+      ],
+      [
+        "  10.2 Allanamiento de morada",
+        "55",
+        "6",
+        "18",
+        "15",
+        "16"
+      ],
+      [
+        "13. Contra el patrimonio y el orden socioeconómico",
+        "9.356",
+        "1.802",
+        "2.261",
+        "2.661",
+        "2.632"
+      ],
+      [
+        "  13.1 Hurtos",
+        "2.920",
+        "632",
+        "735",
+        "765",
+        "788"
+      ],
+      [
+        "  13.2 Robos",
+        "4.018",
+        "741",
+        "1.022",
+        "1.172",
+        "1.083"
+      ],
+      [
+        "    13.2.1 Robo con violencia",
+        "2.552",
+        "480",
+        "680",
+        "754",
+        "638"
+      ],
+      [
+        "    13.2.2 Robo con fuerza",
+        "1.466",
+        "261",
+        "342",
+        "418",
+        "445"
+      ],
+      [
+        "  13.4 Robo y hurto de uso de vehículo",
+        "266",
+        "23",
+        "62",
+        "85",
+        "96"
+      ],
+      [
+        "  13.5 Usurpación (incluye Usurpación de Identidad Digital / Perfiles Falsos)",
+        "36",
+        "4",
+        "7",
+        "16",
+        "9"
+      ],
+      [
+        "  13.6 Defraudaciones (Estafas Informáticas / Phishing / Compras Online)",
+        "491",
+        "70",
+        "106",
+        "164",
+        "151"
+      ],
+      [
+        "  13.9 Daños",
+        "1.281",
+        "261",
+        "263",
+        "376",
+        "381"
+      ],
+      [
+        "  13.14 Receptación y blanqueo de capitales",
+        "73",
+        "12",
+        "19",
+        "23",
+        "19"
+      ],
+      [
+        "  13.99 Otros delitos contra el patrimonio",
+        "256",
+        "55",
+        "45",
+        "64",
+        "92"
+      ],
+      [
+        "17. Contra la seguridad colectiva",
+        "950",
+        "81",
+        "152",
+        "276",
+        "441"
+      ],
+      [
+        "  17.3 Contra la salud pública",
+        "455",
+        "61",
+        "98",
+        "131",
+        "165"
+      ],
+      [
+        "  17.4 Contra la seguridad vial",
+        "446",
+        "14",
+        "46",
+        "128",
+        "258"
+      ],
+      [
+        "  17.99 Otros delitos seguridad colectiva",
+        "49",
+        "6",
+        "8",
+        "17",
+        "18"
+      ],
+      [
+        "18. Falsedades",
+        "151",
+        "17",
+        "30",
+        "48",
+        "56"
+      ],
+      [
+        "  18.2 Falsedades documentales",
+        "136",
+        "15",
+        "27",
+        "43",
+        "51"
+      ],
+      [
+        "  18.99 Otros delitos falsedades",
+        "15",
+        "2",
+        "3",
+        "5",
+        "5"
+      ],
+      [
+        "20. Contra la Administración de Justicia",
+        "1.051",
+        "128",
+        "203",
+        "321",
+        "399"
+      ],
+      [
+        "  20.5 Acusación y denuncia falsa",
+        "70",
+        "12",
+        "18",
+        "22",
+        "18"
+      ],
+      [
+        "  20.7 Obstrucción a la justicia",
+        "104",
+        "15",
+        "24",
+        "31",
+        "34"
+      ],
+      [
+        "  20.8 Quebrantamiento de condena",
+        "785",
+        "89",
+        "142",
+        "242",
+        "312"
+      ],
+      [
+        "  20.99 Otros delitos administración de justicia",
+        "92",
+        "12",
+        "19",
+        "26",
+        "35"
+      ],
+      [
+        "22. Contra el orden público",
+        "1.136",
+        "241",
+        "281",
+        "316",
+        "298"
+      ],
+      [
+        "  22.2 Atentados, resistencia y desobediencia",
+        "937",
+        "201",
+        "234",
+        "261",
+        "241"
+      ],
+      [
+        "    22.2.1 Atentados contra la autoridad",
+        "464",
+        "102",
+        "118",
+        "129",
+        "115"
+      ],
+      [
+        "    22.2.2 Resistencia y desobediencia",
+        "473",
+        "99",
+        "116",
+        "132",
+        "126"
+      ],
+      [
+        "  22.5 Tenencia, tráfico de armas",
+        "122",
+        "21",
+        "28",
+        "35",
+        "38"
+      ],
+      [
+        "  22.99 Otros delitos orden público",
+        "77",
+        "19",
+        "19",
+        "20",
+        "19"
+      ],
+      [
+        "Resto de delitos",
+        "383",
+        "87",
+        "86",
+        "92",
+        "118"
+      ]
+    ]
+  },
+  "digital": {
+    "headers": [
+      "Tipología del Ciberdelito / Entorno Digital",
+      "Total Infracciones",
+      "% Hombres",
+      "% Mujeres",
+      "14 años",
+      "15 años",
+      "16 años",
+      "17 años"
+    ],
+    "rows": [
+      [
+        "Defraudaciones (Estafas Informáticas / Phishing / Compras Online)",
+        "491",
+        "416",
+        "84,7%",
+        "377",
+        "114",
+        "70",
+        "106"
+      ],
+      [
+        "Descubrimiento y Revelación de Secretos (Sexting / Ciberespionaje)",
+        "203",
+        "154",
+        "75,9%",
+        "184",
+        "19",
+        "75",
+        "47"
+      ],
+      [
+        "Contra la Integridad Moral (Acoso Escolar / Ciberbullying)",
+        "1.346",
+        "1.010",
+        "75,0%",
+        "1.193",
+        "153",
+        "378",
+        "364"
+      ],
+      [
+        "Amenazas en Redes Sociales y Entorno Digital",
+        "2.272",
+        "1.703",
+        "75,0%",
+        "1.690",
+        "582",
+        "422",
+        "571"
+      ],
+      [
+        "Coacciones en Redes Sociales y Entorno Digital",
+        "408",
+        "301",
+        "73,8%",
+        "346",
+        "62",
+        "129",
+        "113"
+      ],
+      [
+        "Usurpación de Identidad Digital y Estado Civil (Perfiles Falsos / RRSS)",
+        "36",
+        "28",
+        "77,8%",
+        "29",
+        "7",
+        "4",
+        "7"
+      ],
+      [
+        "TOTAL DELITOS ÁMBITO TECNOLÓGICO / DIGITAL",
+        "4.756",
+        "3.612",
+        "75,9%",
+        "3.819",
+        "937",
+        "1.078",
+        "1.208"
+      ]
+    ]
+  },
+  "territory": {
+    "headers": [
+      "Comunidad / Ciudad Autónoma",
+      "Total Absoluto"
+    ],
+    "rows": [
+      [
+        "TOTAL NACIONAL",
+        "24.279"
+      ],
+      [
+        "Andalucía",
+        "4.028"
+      ],
+      [
+        "Aragón",
+        "983"
+      ],
+      [
+        "Principado de Asturias",
+        "837"
+      ],
+      [
+        "Illes Balears",
+        "882"
+      ],
+      [
+        "Canarias",
+        "1.131"
+      ],
+      [
+        "Cantabria",
+        "198"
+      ],
+      [
+        "Castilla y León",
+        "1.534"
+      ],
+      [
+        "Castilla-La Mancha",
+        "708"
+      ],
+      [
+        "Cataluña",
+        "3.884"
+      ],
+      [
+        "Comunitat Valenciana",
+        "2.761"
+      ],
+      [
+        "Extremadura",
+        "421"
+      ],
+      [
+        "Galicia",
+        "1.092"
+      ],
+      [
+        "Comunidad de Madrid",
+        "2.512"
+      ],
+      [
+        "Región de Murcia",
+        "1.342"
+      ],
+      [
+        "Comunidad Foral de Navarra",
+        "462"
+      ],
+      [
+        "País Vasco",
+        "995"
+      ],
+      [
+        "La Rioja",
+        "162"
+      ],
+      [
+        "Ceuta",
+        "182"
+      ],
+      [
+        "Melilla",
+        "165"
+      ]
+    ]
+  },
+  "slides": [
+    {
+      "slide": 1,
+      "text": [],
+      "notes": [
+        "9"
+      ]
+    },
+    {
+      "slide": 2,
+      "text": [
+        "ESTADÍSTICA NACIONAL — JURISDICCIÓN DE MENORES",
+        "Las 4 ",
+        "Macrocifras",
+        " de la ",
+        "Jurisdicción",
+        " de ",
+        "Menores",
+        " (2025)",
+        "74.538",
+        "Diligencias",
+        " ",
+        "Preliminares",
+        "+10,6% vs 2024",
+        "24.740",
+        "Expedientes",
+        " de ",
+        "Reforma",
+        "-4,9% vs 2024",
+        "10.857",
+        "Sentencias",
+        " ",
+        "por",
+        " ",
+        "Conformidad",
+        "78,4% del total",
+        "14.072",
+        "Medidas",
+        " ",
+        "en",
+        " ",
+        "Ejecución",
+        "+4,2% vs 2024"
+      ],
+      "notes": []
+    },
+    {
+      "slide": 3,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 4,
+      "text": [
+        "ESTADÍSTICA NACIONAL — JURISDICCIÓN DE MENORES",
+        "Evolución Criminológica Nacional (2021–2025): Destacado de Aumentos"
+      ],
+      "notes": []
+    },
+    {
+      "slide": 5,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 6,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 7,
+      "text": [
+        "ANÁLISIS DEMOGRÁFICO",
+        "Distribución General de Infracciones Penales por Sexo (2025)",
+        "HOMBRES (VARONES)",
+        "19.762 Infracciones (81,4%)",
+        "• Mayor concentración en delitos violentos y patrimonio.",
+        "• Robos con fuerza: 94,5% cometidos por varones (1.154).",
+        "• Seguridad vial: 96,7% cometidos por varones (897).",
+        "• Delitos sexuales: 97,9% cometidos por varones (823).",
+        "• Robo de uso de vehículos: 98,3% varones (455).",
+        "MUJERES",
+        "4.517 Infracciones (18,6%)",
+        "• Alta concentración relativa en lesiones y convivencia.",
+        "• Lesiones: representan el 43,6% de todos los delitos femeninos (1.970).",
+        "• Hurtos: representan el 10,7% del total femenino (483 infracciones).",
+        "• Atentado a la autoridad: 24,7% son mujeres (152 casos).",
+        "• Denuncia falsa: 58,8% cometidas por mujeres (10 de 17 casos)."
+      ],
+      "notes": []
+    },
+    {
+      "slide": 8,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 9,
+      "text": [
+        "",
+        "ESTADÍSTICA ",
+        "DE INFRACCIONES PENALES DE MENORES POR CC.AA. (AÑO 2025)",
+        "",
+        "Distribución territorial por Comunidades y Ciudades ",
+        "Autónomas ",
+        "| Fuente: INE / CGPJ",
+        ""
+      ],
+      "notes": []
+    },
+    {
+      "slide": 10,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 11,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 12,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 13,
+      "text": [
+        "MEMORIAS FGE 2024 Y MEMORIA FISCALÍA COMUNIDAD DE MADRID 2024. ESPECIAL RELEVANCIA MENORES Y REDES SOCIALES",
+        "Memoria FGE 2024",
+        "Capítulo Específico: ",
+        "Capítulo V.1.3: «Menores verdugos en la red».",
+        "Foco de Análisis: ",
+        "Cultura de la inmediatez, desinhibición online y consumo precoz de pornografía violenta.",
+        "Diagnóstico: ",
+        "Transformación del menor de víctima a sujeto activo de delitos digitales gravísimos.",
+        "Fiscalía C. Madrid 2024",
+        "Capítulo Específico: ",
+        "Capítulo III: «Menores y Redes Sociales».",
+        "Foco Territorial: ",
+        "Detección regional del incremento de ciberbullying, sextorsión y happy slapping.",
+        "Llamada de Alerta: ",
+        "Necesidad de implicación familiar y educativa ante el vacío de control parental.",
+        "Estadística CGPJ / INE 2025",
+        "Volumen Nacional: ",
+        "24.279 infracciones penales registradas en 2025.",
+        "Brecha de Género: ",
+        "81,4% varones (19.762) vs. 18,6% mujeres (4.517).",
+        "Datos Cuantitativos: ",
+        "Sostén estadístico de la evolución delictiva y distribución por edades (14-17 años)."
+      ],
+      "notes": []
+    },
+    {
+      "slide": 14,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 15,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 16,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 17,
+      "text": [
+        "ANÁLISIS DE DELITOS TECNOLÓGICOS E INFORMÁTICOS DE MENORES (",
+        "TRICs",
+        " 2025)",
+        "Desglose especializado por tipo de ",
+        "ciberdelito",
+        ", sexo y franja de edad | ",
+        "Fuente: INE / CGPJ / Fiscalía"
+      ],
+      "notes": []
+    },
+    {
+      "slide": 18,
+      "text": [
+        "DELINCUENCIA DIGITAL & REDES",
+        "Especial Delitos Tecnológicos y Entorno Digital (2025)",
+        "491 — Estafas / Fraud. Online",
+        "84,7% Hombres / Peak 16-17 años",
+        "203 — Descubrimiento Secretos",
+        "75,9% Hombres / Peak 14 años",
+        "1.407 — Causas Acoso Escolar",
+        "+17,6% incremento anual (Fiscalía)",
+        "Delito / Tipología Digital",
+        "Total 2025",
+        "Varones",
+        "Mujeres",
+        "% Mujeres",
+        "Edad de Mayor Incidencia",
+        "Tendencia / Notas",
+        "Defraudaciones / Estafas Online",
+        "491",
+        "416 (84,7%)",
+        "75 (15,3%)",
+        "15,3%",
+        "16 años (164) y 17 años (151)",
+        "Crecimiento continuo",
+        "Descubrimiento / Revelación Secretos",
+        "203",
+        "154 (75,9%)",
+        "49 (24,1%)",
+        "24,1%",
+        "14 años (75 casos - Pico)",
+        "Sexting / Difusión fotos",
+        "Ciberbullying / Acoso Escolar (Causas)",
+        "1.407",
+        "—",
+        "—",
+        "—",
+        "14-15 años",
+        "+17,6% vs. 2024 (1.196)",
+        "Contra la Integridad Moral (Condenas)",
+        "1.346",
+        "1.010 (75,0%)",
+        "336 (25,0%)",
+        "25,0%",
+        "14 y 15 años",
+        "+29% causas incoadas",
+        "Amenazas y Coacciones en Redes",
+        "2.680",
+        "2.004 (74,8%)",
+        "676 (25,2%)",
+        "25,2%",
+        "15 a 17 años",
+        "2.272 am. / 408 coacc."
+      ],
+      "notes": []
+    },
+    {
+      "slide": 19,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 20,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 21,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 22,
+      "text": [],
+      "notes": []
+    },
+    {
+      "slide": 23,
+      "text": [],
+      "notes": []
+    }
+  ]
+}
