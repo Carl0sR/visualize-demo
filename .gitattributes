@@ -1,0 +1,2 @@
+# La demo de referencia conserva exactamente sus finales de línea originales.
+archivo/decision-studio.html -text whitespace=cr-at-eol

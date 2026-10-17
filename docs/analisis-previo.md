@@ -626,4 +626,3 @@ Estas cifras completan el inventario de los mensajes destacados. No sustituyen l
 | D. 18 | Integridad moral: 1.346, con 1.010 varones (75,0%) y 336 mujeres (25,0%); edades destacadas 14 y 15. La nota +29% corresponde a causas incoadas, otro universo. |
 | D. 18 | Amenazas y coacciones: 2.680, con 2.004 varones (74,8%) y 676 mujeres (25,2%); 2.272 amenazas y 408 coacciones. |
 | D. 19 | Participación femenina por categoría: coacciones 107 (26,2%); integridad moral 336 (25,0%); lesiones 1.970 (24,3%); secretos 49 (24,1%). Referencia general: 18,6%. |
-
