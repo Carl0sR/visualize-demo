@@ -43,3 +43,11 @@ Revisión de los archivos destinados al repositorio: sin coincidencias de claves
 ## Límites
 
 No se ha probado con todos los lectores de pantalla ni en dispositivos físicos. La implementación usa controles HTML nativos y ofrece tablas equivalentes a los gráficos. Los cambios posteriores requieren volver a ejecutar las comprobaciones.
+
+### Rediseño de la mesa de trabajo (21/10/2026)
+
+- `npm test`, `npm run test:deck`, `npm run test:madrid`, `node --check assets/madrid.js` y `git diff --check`: correctos.
+- Navegador real: selección de Centro en tabla territorial y paso al seguimiento (24 expedientes del ámbito seleccionado; 10 en la cola de revisión); orden por días abierto; apertura y cierre de ficha lateral; búsqueda sin resultados; guardado de consulta y recuperación en nueva carga; eliminación de consulta; página 2 del listado; ocultación y restauración de columna; densidad compacta y panel de filtros plegado.
+- Alternancia Mapa / Tabla / Ambos y segunda página territorial verificadas; informe HTML descargado con título y nota personalizados, unidades e intervalos explícitos. Consola sin errores ni advertencias durante estas pruebas.
+- Revisión visual real en escritorio de 1440 px, vista de 1024 px y móvil de 390 px. Mediciones DOM en 1024 y 390 sin desbordamiento horizontal de la página. Las tablas mantienen desplazamiento propio cuando no caben sus columnas.
+- Pendiente de validación con usuarios: preferencias de densidad, columnas habituales y vocabulario propio de cada equipo. La salida a impresora física no se ha probado en esta iteración.

@@ -54,3 +54,15 @@ La demo ayuda a discutir una necesidad; no contiene valoración de riesgo indivi
 Sitio estático con recursos locales, incluido D3 7.9.0 y su licencia. Se puede servir desde la raíz del proyecto o publicar sin compilación en GitHub Pages. El mapa no pide teselas a terceros ni usa geocodificación remota.
 
 Regenerar el conjunto operativo: `python3 scripts/build-madrid.py`. Comprobar: `npm test`, `npm run test:deck` y `npm run test:madrid`. La fuente operativa es `datos/poc-madrid/operativo.json`; `assets/madrid-data.js` es su salida generada. Los JSON estadísticos oficiales y sus comprobaciones se mantienen separados.
+
+## Mesa de trabajo: rediseño del 21/10/2026
+
+La interfaz usa el ancho disponible y ofrece densidad cómoda o compacta. Los filtros se pueden plegar; tipo de hecho, estado y medida están agrupados en «Más filtros». Las etiquetas superiores muestran la selección activa, que se comparte entre análisis, seguimiento e informes.
+
+El análisis combina mapa y tabla territorial, o permite ver cada uno por separado. La tabla admite búsqueda, ordenación y páginas de 15 zonas. Al pulsar una zona se resalta en ambos soportes y se filtran los expedientes de Seguimiento y el informe. Los indicadores superiores del análisis siguen describiendo el ámbito completo; la ficha territorial describe la zona seleccionada.
+
+Seguimiento permite buscar por identificador o zona, ordenar columnas, elegir columnas visibles y paginar de 25, 50 o 100 filas. Tarea y fecha de revisión son campos separados. Un identificador abre una ficha lateral de consulta; cerrar con el botón o Escape conserva el listado. Las fechas simuladas de revisión anteriores a la apertura se señalan como «por validar», sin alterar el conjunto original ni sus recuentos.
+
+Las consultas guardadas conservan exclusivamente el nombre, los filtros, la zona, la vista y la modalidad de seguimiento en `localStorage` del navegador (máximo 20). No incluyen notas, documentos ni registros personales. Se pueden recuperar y eliminar; si el almacenamiento está bloqueado, la interfaz explica que se puede conservar la URL. La densidad, las columnas, la búsqueda y la paginación no se guardan entre sesiones.
+
+Informes incorpora un título editable, con propuesta automática derivada de la selección, y explicita la unidad y los intervalos del mapa. El mapa conserva el ámbito territorial completo para dar contexto y resalta la zona elegida; los recuentos y la tabla corresponden a la selección. La exportación HTML incluye el título y la nota, que siguen sin guardarse en el navegador.
