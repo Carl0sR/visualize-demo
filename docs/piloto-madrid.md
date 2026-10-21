@@ -35,6 +35,8 @@ El periodo es la fecha de apertura; los estados y resultados se observan al 31/1
 
 ## Exportaciones
 
+El mapa agrupa los recuentos positivos en hasta cinco intervalos por cuantiles; el cero se muestra aparte. Los límites se recalculan al cambiar de selección para distinguir diferencias entre distritos o barrios. Para comparar vistas hay que consultar sus cifras e intervalos, no equiparar tonos sin comprobar la escala.
+
 El CSV y el GeoJSON contienen agregados de la selección, no una exportación de expedientes personales. El informe HTML es autónomo, incluye un mapa y puede imprimirse. El texto libre del analista queda en la página y en el archivo descargado; no se envía a un servidor ni se guarda en almacenamiento del navegador.
 
 La opción de ocultar celdas entre 1 y 4 solo demuestra una precaución editorial. Los totales y el mapa no se suprimen, y pueden permitir inferencias complementarias. No representa una garantía de anonimización; al usar datos reales habría que definir reglas sobre toda la salida y sus posibles cruces.

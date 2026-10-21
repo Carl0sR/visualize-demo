@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/madrid.css?v=20261021-1">
   <script src="assets/vendor/d3-7.9.0.min.js" defer></script>
   <script src="assets/madrid-data.js?v=20261021-1" defer></script>
-  <script src="assets/madrid.js?v=20261021-1" defer></script>
+  <script src="assets/madrid.js?v=20261021-2" defer></script>
 </head>
 <body>
 <a class="skip" href="#workspace">Saltar al contenido</a>
@@ -36,7 +36,7 @@
         <div class="view-title"><div><p class="eyebrow">EXPLORAR Y CONTRASTAR</p><h2 id="territory-heading">Actividad por zonas</h2></div><label class="metric-select">Colorear por<select id="metric"><option value="expedientes">Expedientes únicos</option><option value="hechos">Hechos registrados</option><option value="pendientes">Expedientes pendientes</option><option value="sentencias">Sentencias condenatorias</option><option value="infracciones">Infracciones con condena</option><option value="medidas">Medidas simuladas</option></select></label></div>
         <div id="summary" class="summary" aria-live="polite"></div>
         <p id="coverage" class="coverage"></p>
-        <div class="map-layout"><div><div id="map" class="map" aria-label="Mapa territorial"></div><div id="legend" class="legend"></div><p class="fine">Recuentos simulados. El tamaño de una zona o su volumen no mide riesgo individual, prevalencia ni eficacia de una intervención.</p></div><aside class="zone-detail"><label>Consultar una zona<select id="zone"></select></label><div id="zone-detail" aria-live="polite"></div><button type="button" id="zone-report" class="primary">Preparar informe de esta selección →</button></aside></div>
+        <div class="map-layout"><div><div id="map" class="map" aria-label="Mapa territorial"></div><div id="legend" class="legend"></div><p class="fine">Recuentos simulados. Los intervalos de color se ajustan a la selección. El volumen no mide riesgo individual, prevalencia ni eficacia de una intervención.</p></div><aside class="zone-detail"><label>Consultar una zona<select id="zone"></select></label><div id="zone-detail" aria-live="polite"></div><button type="button" id="zone-report" class="primary">Preparar informe de esta selección →</button></aside></div>
         <div class="lower-grid"><section><h3>Aperturas por mes</h3><div id="monthly" class="monthly"></div><p class="fine">Misma selección territorial y tipos de hecho; meses de apertura, no de comisión.</p></section><section><h3>Zonas con más volumen en esta vista</h3><div id="ranking"></div></section></div>
         <div class="download-row"><button type="button" id="download-geojson">Descargar mapa GeoJSON</button><button type="button" id="download-csv">Descargar tabla agregada CSV</button></div>
       </section>
