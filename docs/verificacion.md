@@ -51,3 +51,9 @@ No se ha probado con todos los lectores de pantalla ni en dispositivos físicos.
 - Alternancia Mapa / Tabla / Ambos y segunda página territorial verificadas; informe HTML descargado con título y nota personalizados, unidades e intervalos explícitos. Consola sin errores ni advertencias durante estas pruebas.
 - Revisión visual real en escritorio de 1440 px, vista de 1024 px y móvil de 390 px. Mediciones DOM en 1024 y 390 sin desbordamiento horizontal de la página. Las tablas mantienen desplazamiento propio cuando no caben sus columnas.
 - Pendiente de validación con usuarios: preferencias de densidad, columnas habituales y vocabulario propio de cada equipo. La salida a impresora física no se ha probado en esta iteración.
+
+### Cabecera unificada y espacio de trabajo (21/10/2026)
+
+Se agrupan identidad, navegación, filtros/densidad y ayuda en la fila superior. Presentación y dossier pasan al menú «Documentación». Se elimina la fila visual redundante «Mesa de trabajo», conservando un título accesible y el contexto en la marca y el aviso de simulación. La selección y las consultas guardadas comparten una segunda barra; el botón de eliminación solo aparece cuando hay una consulta elegida.
+
+Revisión visual real en 1366×768, 1920×1080 y 390×844. En 1366×768, el área de trabajo comienza en y=127 px y la página mide exactamente 768 px de alto; no necesita desplazamiento vertical general. El listado cómodo dispone de unos 237 px y desplazamiento propio, con paginación visible. En escritorio, filtros y contenido usan paneles desplazables cuando es necesario; en móvil se conserva el desplazamiento natural. Se verificaron navegación territorial, página siguiente, ficha de expediente y menú de documentación. Sin errores ni advertencias de consola. No se probó impresora física.

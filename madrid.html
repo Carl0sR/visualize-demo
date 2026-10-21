@@ -6,18 +6,21 @@
   <meta name="referrer" content="no-referrer"><meta name="theme-color" content="#173c4e">
   <title>Madrid · Laboratorio de justicia juvenil</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/madrid.css?v=20261021-3">
+  <link rel="stylesheet" href="assets/madrid.css?v=20261021-4">
   <script src="assets/vendor/d3-7.9.0.min.js" defer></script>
   <script src="assets/madrid-data.js?v=20261021-1" defer></script>
   <script src="assets/madrid.js?v=20261021-3" defer></script>
 </head>
 <body>
 <a class="skip" href="#workspace">Saltar al contenido</a>
-<header class="masthead"><a class="brand" href="madrid.html"><span class="brand-symbol">j.</span><span>Justicia juvenil<small>Laboratorio territorial · Madrid</small></span></a><div class="header-links"><a href="presentacion.html#5">Presentación</a><a href="index.html">Dossier y estadísticas ↗</a></div></header>
-<div class="simulation"><strong>DEMOSTRACIÓN · DATOS JUDICIALES FICTICIOS</strong><span>Situación simulada al 31/12/2025. Población y límites geográficos públicos.</span></div>
-<main class="shell" id="workspace">
-  <div class="workspace-bar"><div><h1>Mesa de trabajo</h1><p>Madrid · Expedientes de reforma · Corte: 31 dic 2025</p></div><div class="workspace-actions"><button id="toggle-filters" aria-expanded="true" aria-controls="filter-panel">Ocultar filtros</button><label>Densidad<select id="density"><option value="comfortable">Cómoda</option><option value="compact">Compacta</option></select></label><button data-view="fuentes">Ayuda y fuentes</button></div></div>
+<header class="masthead">
+  <a class="brand" href="madrid.html"><span class="brand-symbol">j.</span><span>Justicia juvenil<small>Mesa de trabajo · Madrid</small></span></a>
   <nav class="tabs" aria-label="Vistas del laboratorio"><button type="button" data-view="seguimiento">Seguimiento</button><button type="button" data-view="territorio" aria-current="page">Análisis territorial</button><button type="button" data-view="informe">Informes</button></nav>
+  <div class="workspace-actions"><button id="toggle-filters" aria-expanded="true" aria-controls="filter-panel">Ocultar filtros</button><label>Densidad<select id="density"><option value="comfortable">Cómoda</option><option value="compact">Compacta</option></select></label><button data-view="fuentes">Ayuda y fuentes</button><details class="header-docs"><summary>Documentación</summary><div><a href="presentacion.html#5">Presentación</a><a href="index.html">Dossier y estadísticas ↗</a></div></details></div>
+</header>
+<div class="simulation"><strong>DEMOSTRACIÓN · DATOS JUDICIALES FICTICIOS</strong><span>Expedientes de reforma · Corte: 31 dic 2025 · Población y límites geográficos públicos.</span></div>
+<main class="shell" id="workspace">
+  <h1 class="sr-only">Mesa de trabajo de justicia juvenil en Madrid</h1>
   <div class="selection-bar"><div id="active-filters" aria-label="Selección activa"></div><div class="saved-controls"><label class="sr-only" for="saved-query">Consultas guardadas</label><select id="saved-query"><option value="">Consultas guardadas</option></select><button id="save-query">Guardar consulta</button><button id="delete-query" disabled>Eliminar guardada</button></div></div>
   <p id="save-status" class="fine" role="status"></p>
   <div class="work-layout">
@@ -49,7 +52,7 @@
         <div id="follow-summary" class="summary"></div>
         <div class="inline-controls"><label>Mostrar<select id="queue"><option value="revision">Revisión operativa pendiente</option><option value="localizacion">Localización por completar</option><option value="documentacion">Documento por revisar</option><option value="inicio">Medida pendiente de inicio</option><option value="todos">Todos los expedientes de la selección</option></select></label><label>Buscar expediente o zona<input id="search" type="search" placeholder="Identificador o zona" maxlength="80"></label></div>
         <div class="table-tools"><p id="queue-count" role="status"></p><details class="column-picker"><summary>Columnas visibles</summary><div id="column-options"></div></details><label>Filas por página<select id="rows-per-page"><option>25</option><option>50</option><option>100</option></select></label></div><div id="queue-table" class="table-wrap"></div><div class="pagination"><button id="queue-prev">Anterior</button><span id="queue-page" role="status"></span><button id="queue-next">Siguiente</button></div>
-        <p class="callout">El mapa omite localizaciones desconocidas; esta vista las conserva. Un piloto real necesitaría validar la extracción, los duplicados y las ubicaciones antes de agregar.</p>
+        <details class="follow-help"><summary>Cómo interpretar este listado</summary><p>El mapa omite localizaciones desconocidas; esta vista las conserva. Un piloto real necesitaría validar la extracción, los duplicados y las ubicaciones antes de agregar.</p></details>
       </section>
       <section id="view-informe" hidden aria-labelledby="report-heading">
         <p class="eyebrow">EXPLICAR LA ACTIVIDAD</p><h2 id="report-heading">Un resumen para compartir</h2><p>El informe recoge los filtros, la referencia geográfica y las limitaciones. Solo incluye resultados agregados de esta simulación.</p>
