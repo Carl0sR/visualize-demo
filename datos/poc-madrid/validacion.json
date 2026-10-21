@@ -1,0 +1,25 @@
+{
+  "resultado": "OK",
+  "controles": [
+    "IDs únicos",
+    "179 municipios enlazados con INE",
+    "131 barrios enlazados con padrón",
+    "100 % puntos en su municipio y, cuando procede, distrito y barrio",
+    "Referencias expediente–hecho–sentencia íntegras",
+    "Fechas ordenadas y anteriores al corte",
+    "Agregados municipales, distritales y de barrio conciliados"
+  ],
+  "totales": {
+    "expedientes": 4800,
+    "hechos": 6361,
+    "sentencias": 2385,
+    "sentencias_condenatorias": 2058,
+    "infracciones_condenadas": 2532,
+    "pendientes": 1979,
+    "municipios_capa": 179,
+    "municipios_con_expedientes": 132,
+    "distritos_capa": 21,
+    "barrios_capa": 131,
+    "barrios_con_expedientes": 130
+  }
+}

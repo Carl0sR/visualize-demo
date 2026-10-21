@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "sintetico": true,
+  "aviso": "Etiquetas tomadas del repositorio como vocabulario. No se reutilizan sus recuentos ni proporciones. Categoría principal simulada, no calificación judicial.",
+  "categorias": [
+    {
+      "id": "3",
+      "nombre": "Lesiones"
+    },
+    {
+      "id": "6.2",
+      "nombre": "Amenazas"
+    },
+    {
+      "id": "6.3",
+      "nombre": "Coacciones"
+    },
+    {
+      "id": "7",
+      "nombre": "Torturas e integridad moral"
+    },
+    {
+      "id": "10.1",
+      "nombre": "Descubrimiento y revelación de secretos"
+    },
+    {
+      "id": "13.1",
+      "nombre": "Hurtos"
+    },
+    {
+      "id": "13.2.1",
+      "nombre": "Robo con violencia"
+    },
+    {
+      "id": "13.6",
+      "nombre": "Defraudaciones"
+    },
+    {
+      "id": "13.9",
+      "nombre": "Daños"
+    },
+    {
+      "id": "17.4",
+      "nombre": "Contra la seguridad vial"
+    }
+  ],
+  "estados": [
+    "registro",
+    "tramitacion",
+    "pendiente_audiencia",
+    "cerrado"
+  ],
+  "source": {
+    "repository": "https://github.com/Carl0sR/visualize-demo",
+    "commit": "362f386395cb0b0b3cfb1d78970886188ccc78ea",
+    "file": "datos/justicia-juvenil.json"
+  }
+}

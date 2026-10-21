@@ -1,0 +1,25 @@
+name: Verificar dossier y laboratorio
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Dossier y fuentes
+        run: node scripts/check-data.cjs
+      - name: Presentación
+        run: node scripts/check-deck.cjs
+      - name: Regenerar capa operativa
+        run: python3 scripts/build-madrid.py
+      - name: Verificar reproducibilidad
+        run: git diff --exit-code -- assets/madrid-data.js datos/poc-madrid/operativo.json
+      - name: Integridad de la simulación
+        run: node scripts/check-madrid.cjs

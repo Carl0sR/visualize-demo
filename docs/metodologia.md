@@ -1,5 +1,9 @@
 # Método y decisiones editoriales
 
+## Laboratorio sintético separado · 21/10/2026
+
+`datos/poc-madrid/` contiene expedientes, hechos y sentencias completamente ficticios, separados de las estadísticas oficiales. La capa operativa añade residencias y tareas simuladas con semilla fija. `assets/madrid-data.js` se genera con `scripts/build-madrid.py`. El reparto demográfico, las fuentes y los límites están en `docs/piloto-madrid.md`. No se alteran los recuentos oficiales para construir el mapa ni se derivan de ellos cruces por barrio.
+
 Edición: 17 de octubre de 2026. Periodo estadístico: 2025, salvo series históricas y memorias cualitativas identificadas.
 
 ## Fuentes y tratamiento
@@ -21,6 +25,10 @@ En territorio se resolvieron las discrepancias con INE 26030, incluido Galicia, 
 Las tasas se transcriben de la nota de prensa del INE. No se calculan poblaciones implícitas a partir de tasas redondeadas. Los porcentajes territoriales identifican siempre la base nacional y la del conjunto seleccionado.
 
 Se corrigen las macrocifras de expedientes de reforma, la denominación de expedientes de ejecución y el denominador de conformidades. Se conservan por separado los 1.364 registros de integridad moral de Fiscalía y las 1.346 infracciones del INE. No se atribuye el crecimiento de una serie a la otra.
+
+## Ampliación para el modo presentación
+
+El piloto `presentacion.html` usa tres macrocifras de actividad procesal centralizadas en el bloque `fiscalia` de `datos/justicia-juvenil.json`: 74.538 diligencias preliminares (+10,6 %), 26.084 expedientes de reforma (+5,4 %) y 14.072 expedientes de ejecución (+4,2 %). Proceden de FGE 2026, III.6.2, y coinciden con los valores ya usados en `assets/app.js` y `visualize/registro-y-condena.html`. Son unidades distintas y no se suman. La ampliación no cambia el comportamiento del dossier: `assets/data.js` se regenera y `app.js` sigue usando sus constantes actuales. La unificación de esas constantes queda pendiente.
 
 ## Contenido digital y contexto
 

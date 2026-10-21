@@ -1,0 +1,931 @@
+{
+  "fuente": "https://datos.madrid.es/id/api/3/action/datastore_search",
+  "recurso": "209163-296-padron-municipal-historico-csv",
+  "fecha": "2025-01-01",
+  "filtro_edades": [
+    14,
+    15,
+    16,
+    17
+  ],
+  "filas_origen": 9838,
+  "datos": [
+    {
+      "COD_DISTRITO": "5",
+      "DESC_DISTRITO": "CHAMARTIN",
+      "COD_DIST_BARRIO": "503",
+      "DESC_BARRIO": "CIUDAD JARDIN",
+      "poblacion_14_17": 530
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1105",
+      "DESC_BARRIO": "PUERTA BONITA",
+      "poblacion_14_17": 1673
+    },
+    {
+      "COD_DISTRITO": "6",
+      "DESC_DISTRITO": "TETUAN",
+      "COD_DIST_BARRIO": "605",
+      "DESC_BARRIO": "VALDEACEDERAS",
+      "poblacion_14_17": 888
+    },
+    {
+      "COD_DISTRITO": "18",
+      "DESC_DISTRITO": "VILLA DE VALLECAS",
+      "COD_DIST_BARRIO": "1803",
+      "DESC_BARRIO": "ENSANCHE DE VALLECAS",
+      "poblacion_14_17": 2839
+    },
+    {
+      "COD_DISTRITO": "14",
+      "DESC_DISTRITO": "MORATALAZ",
+      "COD_DIST_BARRIO": "1404",
+      "DESC_BARRIO": "MEDIA LEGUA",
+      "poblacion_14_17": 534
+    },
+    {
+      "COD_DISTRITO": "4",
+      "DESC_DISTRITO": "SALAMANCA",
+      "COD_DIST_BARRIO": "405",
+      "DESC_BARRIO": "LISTA",
+      "poblacion_14_17": 519
+    },
+    {
+      "COD_DISTRITO": "16",
+      "DESC_DISTRITO": "HORTALEZA",
+      "COD_DIST_BARRIO": "1606",
+      "DESC_BARRIO": "VALDEFUENTES",
+      "poblacion_14_17": 4511
+    },
+    {
+      "COD_DISTRITO": "3",
+      "DESC_DISTRITO": "RETIRO",
+      "COD_DIST_BARRIO": "301",
+      "DESC_BARRIO": "PACIFICO",
+      "poblacion_14_17": 860
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "202",
+      "DESC_BARRIO": "ACACIAS",
+      "poblacion_14_17": 910
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "903",
+      "DESC_BARRIO": "CIUDAD UNIVERSITARIA",
+      "poblacion_14_17": 610
+    },
+    {
+      "COD_DISTRITO": "4",
+      "DESC_DISTRITO": "SALAMANCA",
+      "COD_DIST_BARRIO": "406",
+      "DESC_BARRIO": "CASTELLANA",
+      "poblacion_14_17": 502
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1003",
+      "DESC_BARRIO": "LUCERO",
+      "poblacion_14_17": 1281
+    },
+    {
+      "COD_DISTRITO": "1",
+      "DESC_DISTRITO": "CENTRO",
+      "COD_DIST_BARRIO": "103",
+      "DESC_BARRIO": "CORTES",
+      "poblacion_14_17": 171
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1007",
+      "DESC_BARRIO": "LAS AGUILAS",
+      "poblacion_14_17": 1773
+    },
+    {
+      "COD_DISTRITO": "1",
+      "DESC_DISTRITO": "CENTRO",
+      "COD_DIST_BARRIO": "106",
+      "DESC_BARRIO": "SOL",
+      "poblacion_14_17": 160
+    },
+    {
+      "COD_DISTRITO": "18",
+      "DESC_DISTRITO": "VILLA DE VALLECAS",
+      "COD_DIST_BARRIO": "1802",
+      "DESC_BARRIO": "SANTA EUGENIA",
+      "poblacion_14_17": 766
+    },
+    {
+      "COD_DISTRITO": "14",
+      "DESC_DISTRITO": "MORATALAZ",
+      "COD_DIST_BARRIO": "1406",
+      "DESC_BARRIO": "VINATEROS",
+      "poblacion_14_17": 559
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "203",
+      "DESC_BARRIO": "CHOPERA",
+      "poblacion_14_17": 436
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1204",
+      "DESC_BARRIO": "ALMENDRALES",
+      "poblacion_14_17": 986
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "803",
+      "DESC_BARRIO": "PEÑA GRANDE",
+      "poblacion_14_17": 1684
+    },
+    {
+      "COD_DISTRITO": "1",
+      "DESC_DISTRITO": "CENTRO",
+      "COD_DIST_BARRIO": "105",
+      "DESC_BARRIO": "UNIVERSIDAD",
+      "poblacion_14_17": 647
+    },
+    {
+      "COD_DISTRITO": "7",
+      "DESC_DISTRITO": "CHAMBERI",
+      "COD_DIST_BARRIO": "702",
+      "DESC_BARRIO": "ARAPILES",
+      "poblacion_14_17": 581
+    },
+    {
+      "COD_DISTRITO": "19",
+      "DESC_DISTRITO": "VICALVARO",
+      "COD_DIST_BARRIO": "1901",
+      "DESC_BARRIO": "CASCO H.VICALVARO",
+      "poblacion_14_17": 1658
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1501",
+      "DESC_BARRIO": "VENTAS",
+      "poblacion_14_17": 1510
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "806",
+      "DESC_BARRIO": "VALVERDE",
+      "poblacion_14_17": 3967
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1004",
+      "DESC_BARRIO": "ALUCHE",
+      "poblacion_14_17": 2291
+    },
+    {
+      "COD_DISTRITO": "17",
+      "DESC_DISTRITO": "VILLAVERDE",
+      "COD_DIST_BARRIO": "1701",
+      "DESC_BARRIO": "VILLAVERDE ALTO C.H.",
+      "poblacion_14_17": 2229
+    },
+    {
+      "COD_DISTRITO": "3",
+      "DESC_DISTRITO": "RETIRO",
+      "COD_DIST_BARRIO": "306",
+      "DESC_BARRIO": "NIÑO JESUS",
+      "poblacion_14_17": 612
+    },
+    {
+      "COD_DISTRITO": "6",
+      "DESC_DISTRITO": "TETUAN",
+      "COD_DIST_BARRIO": "604",
+      "DESC_BARRIO": "ALMENARA",
+      "poblacion_14_17": 733
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1101",
+      "DESC_BARRIO": "COMILLAS",
+      "poblacion_14_17": 639
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "206",
+      "DESC_BARRIO": "PALOS DE LA FRONTERA",
+      "poblacion_14_17": 608
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "201",
+      "DESC_BARRIO": "IMPERIAL",
+      "poblacion_14_17": 682
+    },
+    {
+      "COD_DISTRITO": "6",
+      "DESC_DISTRITO": "TETUAN",
+      "COD_DIST_BARRIO": "603",
+      "DESC_BARRIO": "CASTILLEJOS",
+      "poblacion_14_17": 490
+    },
+    {
+      "COD_DISTRITO": "17",
+      "DESC_DISTRITO": "VILLAVERDE",
+      "COD_DIST_BARRIO": "1703",
+      "DESC_BARRIO": "BUTARQUE",
+      "poblacion_14_17": 1552
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1206",
+      "DESC_BARRIO": "ZOFIO",
+      "poblacion_14_17": 592
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "904",
+      "DESC_BARRIO": "VALDEZARZA",
+      "poblacion_14_17": 1000
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1503",
+      "DESC_BARRIO": "QUINTANA",
+      "poblacion_14_17": 760
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "907",
+      "DESC_BARRIO": "ARAVACA",
+      "poblacion_14_17": 1542
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1102",
+      "DESC_BARRIO": "OPAÑEL",
+      "poblacion_14_17": 1145
+    },
+    {
+      "COD_DISTRITO": "16",
+      "DESC_DISTRITO": "HORTALEZA",
+      "COD_DIST_BARRIO": "1604",
+      "DESC_BARRIO": "PINAR DEL REY",
+      "poblacion_14_17": 1782
+    },
+    {
+      "COD_DISTRITO": "13",
+      "DESC_DISTRITO": "PUENTE DE VALLECAS",
+      "COD_DIST_BARRIO": "1306",
+      "DESC_BARRIO": "NUMANCIA",
+      "poblacion_14_17": 1816
+    },
+    {
+      "COD_DISTRITO": "13",
+      "DESC_DISTRITO": "PUENTE DE VALLECAS",
+      "COD_DIST_BARRIO": "1303",
+      "DESC_BARRIO": "PALOMERAS BAJAS",
+      "poblacion_14_17": 1562
+    },
+    {
+      "COD_DISTRITO": "17",
+      "DESC_DISTRITO": "VILLAVERDE",
+      "COD_DIST_BARRIO": "1705",
+      "DESC_BARRIO": "ANGELES",
+      "poblacion_14_17": 1353
+    },
+    {
+      "COD_DISTRITO": "1",
+      "DESC_DISTRITO": "CENTRO",
+      "COD_DIST_BARRIO": "102",
+      "DESC_BARRIO": "EMBAJADORES",
+      "poblacion_14_17": 979
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "901",
+      "DESC_BARRIO": "CASA DE CAMPO",
+      "poblacion_14_17": 314
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "804",
+      "DESC_BARRIO": "EL PILAR",
+      "poblacion_14_17": 1362
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "204",
+      "DESC_BARRIO": "LEGAZPI",
+      "poblacion_14_17": 846
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2002",
+      "DESC_BARRIO": "HELLIN",
+      "poblacion_14_17": 385
+    },
+    {
+      "COD_DISTRITO": "5",
+      "DESC_DISTRITO": "CHAMARTIN",
+      "COD_DIST_BARRIO": "501",
+      "DESC_BARRIO": "EL VISO",
+      "poblacion_14_17": 640
+    },
+    {
+      "COD_DISTRITO": "16",
+      "DESC_DISTRITO": "HORTALEZA",
+      "COD_DIST_BARRIO": "1603",
+      "DESC_BARRIO": "CANILLAS",
+      "poblacion_14_17": 1433
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1106",
+      "DESC_BARRIO": "BUENAVISTA",
+      "poblacion_14_17": 3113
+    },
+    {
+      "COD_DISTRITO": "17",
+      "DESC_DISTRITO": "VILLAVERDE",
+      "COD_DIST_BARRIO": "1702",
+      "DESC_BARRIO": "SAN CRISTOBAL",
+      "poblacion_14_17": 902
+    },
+    {
+      "COD_DISTRITO": "7",
+      "DESC_DISTRITO": "CHAMBERI",
+      "COD_DIST_BARRIO": "704",
+      "DESC_BARRIO": "ALMAGRO",
+      "poblacion_14_17": 578
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1502",
+      "DESC_BARRIO": "PUEBLO NUEVO",
+      "poblacion_14_17": 2209
+    },
+    {
+      "COD_DISTRITO": "18",
+      "DESC_DISTRITO": "VILLA DE VALLECAS",
+      "COD_DIST_BARRIO": "1801",
+      "DESC_BARRIO": "CASCO H.VALLECAS",
+      "poblacion_14_17": 2002
+    },
+    {
+      "COD_DISTRITO": "7",
+      "DESC_DISTRITO": "CHAMBERI",
+      "COD_DIST_BARRIO": "701",
+      "DESC_BARRIO": "GAZTAMBIDE",
+      "poblacion_14_17": 548
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1506",
+      "DESC_BARRIO": "SAN JUAN BAUTISTA",
+      "poblacion_14_17": 583
+    },
+    {
+      "COD_DISTRITO": "7",
+      "DESC_DISTRITO": "CHAMBERI",
+      "COD_DIST_BARRIO": "703",
+      "DESC_BARRIO": "TRAFALGAR",
+      "poblacion_14_17": 614
+    },
+    {
+      "COD_DISTRITO": "13",
+      "DESC_DISTRITO": "PUENTE DE VALLECAS",
+      "COD_DIST_BARRIO": "1305",
+      "DESC_BARRIO": "PORTAZGO",
+      "poblacion_14_17": 1200
+    },
+    {
+      "COD_DISTRITO": "5",
+      "DESC_DISTRITO": "CHAMARTIN",
+      "COD_DIST_BARRIO": "505",
+      "DESC_BARRIO": "NUEVA ESPAÑA",
+      "poblacion_14_17": 1094
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1104",
+      "DESC_BARRIO": "VISTA ALEGRE",
+      "poblacion_14_17": 1790
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2005",
+      "DESC_BARRIO": "ROSAS",
+      "poblacion_14_17": 1427
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1201",
+      "DESC_BARRIO": "ORCASITAS",
+      "poblacion_14_17": 1237
+    },
+    {
+      "COD_DISTRITO": "6",
+      "DESC_DISTRITO": "TETUAN",
+      "COD_DIST_BARRIO": "601",
+      "DESC_BARRIO": "BELLAS VISTAS",
+      "poblacion_14_17": 883
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "805",
+      "DESC_BARRIO": "LA PAZ",
+      "poblacion_14_17": 979
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2001",
+      "DESC_BARRIO": "SIMANCAS",
+      "poblacion_14_17": 1259
+    },
+    {
+      "COD_DISTRITO": "6",
+      "DESC_DISTRITO": "TETUAN",
+      "COD_DIST_BARRIO": "606",
+      "DESC_BARRIO": "BERRUGUETE",
+      "poblacion_14_17": 847
+    },
+    {
+      "COD_DISTRITO": "21",
+      "DESC_DISTRITO": "BARAJAS",
+      "COD_DIST_BARRIO": "2101",
+      "DESC_BARRIO": "ALAMEDA DE OSUNA",
+      "poblacion_14_17": 972
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "807",
+      "DESC_BARRIO": "MIRASIERRA",
+      "poblacion_14_17": 2096
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2004",
+      "DESC_BARRIO": "ARCOS",
+      "poblacion_14_17": 1189
+    },
+    {
+      "COD_DISTRITO": "5",
+      "DESC_DISTRITO": "CHAMARTIN",
+      "COD_DIST_BARRIO": "504",
+      "DESC_BARRIO": "HISPANOAMERICA",
+      "poblacion_14_17": 1129
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1205",
+      "DESC_BARRIO": "MOSCARDO",
+      "poblacion_14_17": 981
+    },
+    {
+      "COD_DISTRITO": "13",
+      "DESC_DISTRITO": "PUENTE DE VALLECAS",
+      "COD_DIST_BARRIO": "1301",
+      "DESC_BARRIO": "ENTREVIAS",
+      "poblacion_14_17": 1506
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1002",
+      "DESC_BARRIO": "PUERTA DEL ANGEL",
+      "poblacion_14_17": 1350
+    },
+    {
+      "COD_DISTRITO": "5",
+      "DESC_DISTRITO": "CHAMARTIN",
+      "COD_DIST_BARRIO": "502",
+      "DESC_BARRIO": "PROSPERIDAD",
+      "poblacion_14_17": 995
+    },
+    {
+      "COD_DISTRITO": "13",
+      "DESC_DISTRITO": "PUENTE DE VALLECAS",
+      "COD_DIST_BARRIO": "1302",
+      "DESC_BARRIO": "SAN DIEGO",
+      "poblacion_14_17": 1979
+    },
+    {
+      "COD_DISTRITO": "19",
+      "DESC_DISTRITO": "VICALVARO",
+      "COD_DIST_BARRIO": "1903",
+      "DESC_BARRIO": "VALDERRIVAS",
+      "poblacion_14_17": 1658
+    },
+    {
+      "COD_DISTRITO": "1",
+      "DESC_DISTRITO": "CENTRO",
+      "COD_DIST_BARRIO": "101",
+      "DESC_BARRIO": "PALACIO",
+      "poblacion_14_17": 460
+    },
+    {
+      "COD_DISTRITO": "19",
+      "DESC_DISTRITO": "VICALVARO",
+      "COD_DIST_BARRIO": "1904",
+      "DESC_BARRIO": "EL CAÑAVERAL",
+      "poblacion_14_17": 741
+    },
+    {
+      "COD_DISTRITO": "14",
+      "DESC_DISTRITO": "MORATALAZ",
+      "COD_DIST_BARRIO": "1403",
+      "DESC_BARRIO": "MARROQUINA",
+      "poblacion_14_17": 708
+    },
+    {
+      "COD_DISTRITO": "6",
+      "DESC_DISTRITO": "TETUAN",
+      "COD_DIST_BARRIO": "602",
+      "DESC_BARRIO": "CUATRO CAMINOS",
+      "poblacion_14_17": 938
+    },
+    {
+      "COD_DISTRITO": "3",
+      "DESC_DISTRITO": "RETIRO",
+      "COD_DIST_BARRIO": "303",
+      "DESC_BARRIO": "ESTRELLA",
+      "poblacion_14_17": 833
+    },
+    {
+      "COD_DISTRITO": "14",
+      "DESC_DISTRITO": "MORATALAZ",
+      "COD_DIST_BARRIO": "1405",
+      "DESC_BARRIO": "FONTARRON",
+      "poblacion_14_17": 649
+    },
+    {
+      "COD_DISTRITO": "5",
+      "DESC_DISTRITO": "CHAMARTIN",
+      "COD_DIST_BARRIO": "506",
+      "DESC_BARRIO": "CASTILLA",
+      "poblacion_14_17": 559
+    },
+    {
+      "COD_DISTRITO": "7",
+      "DESC_DISTRITO": "CHAMBERI",
+      "COD_DIST_BARRIO": "706",
+      "DESC_BARRIO": "VALLEHERMOSO",
+      "poblacion_14_17": 601
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1207",
+      "DESC_BARRIO": "PRADOLONGO",
+      "poblacion_14_17": 764
+    },
+    {
+      "COD_DISTRITO": "1",
+      "DESC_DISTRITO": "CENTRO",
+      "COD_DIST_BARRIO": "104",
+      "DESC_BARRIO": "JUSTICIA",
+      "poblacion_14_17": 343
+    },
+    {
+      "COD_DISTRITO": "13",
+      "DESC_DISTRITO": "PUENTE DE VALLECAS",
+      "COD_DIST_BARRIO": "1304",
+      "DESC_BARRIO": "PALOMERAS SURESTE",
+      "poblacion_14_17": 1624
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "902",
+      "DESC_BARRIO": "ARGUELLES",
+      "poblacion_14_17": 630
+    },
+    {
+      "COD_DISTRITO": "4",
+      "DESC_DISTRITO": "SALAMANCA",
+      "COD_DIST_BARRIO": "402",
+      "DESC_BARRIO": "GOYA",
+      "poblacion_14_17": 767
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2003",
+      "DESC_BARRIO": "AMPOSTA",
+      "poblacion_14_17": 404
+    },
+    {
+      "COD_DISTRITO": "14",
+      "DESC_DISTRITO": "MORATALAZ",
+      "COD_DIST_BARRIO": "1401",
+      "DESC_BARRIO": "PAVONES",
+      "poblacion_14_17": 304
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2006",
+      "DESC_BARRIO": "REJAS",
+      "poblacion_14_17": 934
+    },
+    {
+      "COD_DISTRITO": "3",
+      "DESC_DISTRITO": "RETIRO",
+      "COD_DIST_BARRIO": "304",
+      "DESC_BARRIO": "IBIZA",
+      "poblacion_14_17": 634
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "802",
+      "DESC_BARRIO": "FUENTELARREINA",
+      "poblacion_14_17": 183
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1103",
+      "DESC_BARRIO": "SAN ISIDRO",
+      "poblacion_14_17": 1495
+    },
+    {
+      "COD_DISTRITO": "17",
+      "DESC_DISTRITO": "VILLAVERDE",
+      "COD_DIST_BARRIO": "1704",
+      "DESC_BARRIO": "LOS ROSALES",
+      "poblacion_14_17": 1722
+    },
+    {
+      "COD_DISTRITO": "4",
+      "DESC_DISTRITO": "SALAMANCA",
+      "COD_DIST_BARRIO": "401",
+      "DESC_BARRIO": "RECOLETOS",
+      "poblacion_14_17": 432
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1203",
+      "DESC_BARRIO": "SAN FERMIN",
+      "poblacion_14_17": 1240
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1509",
+      "DESC_BARRIO": "COSTILLARES",
+      "poblacion_14_17": 990
+    },
+    {
+      "COD_DISTRITO": "21",
+      "DESC_DISTRITO": "BARAJAS",
+      "COD_DIST_BARRIO": "2104",
+      "DESC_BARRIO": "TIMON",
+      "poblacion_14_17": 619
+    },
+    {
+      "COD_DISTRITO": "7",
+      "DESC_DISTRITO": "CHAMBERI",
+      "COD_DIST_BARRIO": "705",
+      "DESC_BARRIO": "RIOS ROSAS",
+      "poblacion_14_17": 750
+    },
+    {
+      "COD_DISTRITO": "16",
+      "DESC_DISTRITO": "HORTALEZA",
+      "COD_DIST_BARRIO": "1602",
+      "DESC_BARRIO": "PIOVERA",
+      "poblacion_14_17": 889
+    },
+    {
+      "COD_DISTRITO": "11",
+      "DESC_DISTRITO": "CARABANCHEL",
+      "COD_DIST_BARRIO": "1107",
+      "DESC_BARRIO": "ABRANTES",
+      "poblacion_14_17": 1563
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "808",
+      "DESC_BARRIO": "EL GOLOSO",
+      "poblacion_14_17": 1554
+    },
+    {
+      "COD_DISTRITO": "19",
+      "DESC_DISTRITO": "VICALVARO",
+      "COD_DIST_BARRIO": "1902",
+      "DESC_BARRIO": "VALDEBERNARDO",
+      "poblacion_14_17": 706
+    },
+    {
+      "COD_DISTRITO": "4",
+      "DESC_DISTRITO": "SALAMANCA",
+      "COD_DIST_BARRIO": "404",
+      "DESC_BARRIO": "GUINDALERA",
+      "poblacion_14_17": 1245
+    },
+    {
+      "COD_DISTRITO": "16",
+      "DESC_DISTRITO": "HORTALEZA",
+      "COD_DIST_BARRIO": "1605",
+      "DESC_BARRIO": "APOSTOL SANTIAGO",
+      "poblacion_14_17": 572
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "205",
+      "DESC_BARRIO": "DELICIAS",
+      "poblacion_14_17": 994
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2007",
+      "DESC_BARRIO": "CANILLEJAS",
+      "poblacion_14_17": 1122
+    },
+    {
+      "COD_DISTRITO": "16",
+      "DESC_DISTRITO": "HORTALEZA",
+      "COD_DIST_BARRIO": "1601",
+      "DESC_BARRIO": "PALOMAS",
+      "poblacion_14_17": 483
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1001",
+      "DESC_BARRIO": "LOS CARMENES",
+      "poblacion_14_17": 720
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "905",
+      "DESC_BARRIO": "VALDEMARIN",
+      "poblacion_14_17": 488
+    },
+    {
+      "COD_DISTRITO": "4",
+      "DESC_DISTRITO": "SALAMANCA",
+      "COD_DIST_BARRIO": "403",
+      "DESC_BARRIO": "FUENTE DEL BERRO",
+      "poblacion_14_17": 594
+    },
+    {
+      "COD_DISTRITO": "21",
+      "DESC_DISTRITO": "BARAJAS",
+      "COD_DIST_BARRIO": "2105",
+      "DESC_BARRIO": "CORRALEJOS",
+      "poblacion_14_17": 533
+    },
+    {
+      "COD_DISTRITO": "3",
+      "DESC_DISTRITO": "RETIRO",
+      "COD_DIST_BARRIO": "305",
+      "DESC_BARRIO": "LOS JERONIMOS",
+      "poblacion_14_17": 205
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1504",
+      "DESC_BARRIO": "LA CONCEPCION",
+      "poblacion_14_17": 657
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1005",
+      "DESC_BARRIO": "CAMPAMENTO",
+      "poblacion_14_17": 700
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1505",
+      "DESC_BARRIO": "SAN PASCUAL",
+      "poblacion_14_17": 637
+    },
+    {
+      "COD_DISTRITO": "3",
+      "DESC_DISTRITO": "RETIRO",
+      "COD_DIST_BARRIO": "302",
+      "DESC_BARRIO": "ADELFAS",
+      "poblacion_14_17": 610
+    },
+    {
+      "COD_DISTRITO": "21",
+      "DESC_DISTRITO": "BARAJAS",
+      "COD_DIST_BARRIO": "2103",
+      "DESC_BARRIO": "CASCO H.BARAJAS",
+      "poblacion_14_17": 206
+    },
+    {
+      "COD_DISTRITO": "21",
+      "DESC_DISTRITO": "BARAJAS",
+      "COD_DIST_BARRIO": "2102",
+      "DESC_BARRIO": "AEROPUERTO",
+      "poblacion_14_17": 75
+    },
+    {
+      "COD_DISTRITO": "14",
+      "DESC_DISTRITO": "MORATALAZ",
+      "COD_DIST_BARRIO": "1402",
+      "DESC_BARRIO": "HORCAJO",
+      "poblacion_14_17": 311
+    },
+    {
+      "COD_DISTRITO": "8",
+      "DESC_DISTRITO": "FUENCARRAL-EL PARDO",
+      "COD_DIST_BARRIO": "801",
+      "DESC_BARRIO": "EL PARDO",
+      "poblacion_14_17": 109
+    },
+    {
+      "COD_DISTRITO": "12",
+      "DESC_DISTRITO": "USERA",
+      "COD_DIST_BARRIO": "1202",
+      "DESC_BARRIO": "ORCASUR",
+      "poblacion_14_17": 625
+    },
+    {
+      "COD_DISTRITO": "9",
+      "DESC_DISTRITO": "MONCLOA-ARAVACA",
+      "COD_DIST_BARRIO": "906",
+      "DESC_BARRIO": "EL PLANTIO",
+      "poblacion_14_17": 196
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1508",
+      "DESC_BARRIO": "ATALAYA",
+      "poblacion_14_17": 72
+    },
+    {
+      "COD_DISTRITO": "20",
+      "DESC_DISTRITO": "SAN BLAS-CANILLEJAS",
+      "COD_DIST_BARRIO": "2008",
+      "DESC_BARRIO": "EL SALVADOR",
+      "poblacion_14_17": 364
+    },
+    {
+      "COD_DISTRITO": "15",
+      "DESC_DISTRITO": "CIUDAD LINEAL",
+      "COD_DIST_BARRIO": "1507",
+      "DESC_BARRIO": "COLINA",
+      "poblacion_14_17": 299
+    },
+    {
+      "COD_DISTRITO": "10",
+      "DESC_DISTRITO": "LATINA",
+      "COD_DIST_BARRIO": "1006",
+      "DESC_BARRIO": "CUATRO VIENTOS",
+      "poblacion_14_17": 369
+    },
+    {
+      "COD_DISTRITO": "2",
+      "DESC_DISTRITO": "ARGANZUELA",
+      "COD_DIST_BARRIO": "207",
+      "DESC_BARRIO": "ATOCHA",
+      "poblacion_14_17": 111
+    }
+  ]
+}

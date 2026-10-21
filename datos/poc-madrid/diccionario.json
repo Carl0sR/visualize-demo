@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "naturaleza": "Registros judiciales sintéticos; geografía y población públicas reales",
+  "relaciones": [
+    "expedientes.id 1:N hechos.expediente_id",
+    "expedientes.id 1:0..1 sentencias.expediente_id, simplificación de esta POC",
+    "sentencias.hechos_condenados_ids contiene IDs de hechos del mismo expediente"
+  ],
+  "campos": {
+    "expedientes.id": "ID sintético único; no corresponde a una numeración judicial real",
+    "expedientes.tipo_expediente": "reforma_simulada; esta entrega no modela expedientes de ejecución separados",
+    "expedientes.fecha_apertura": "Fecha sintética ISO 8601; define la cohorte seleccionada en el explorador",
+    "expedientes.fecha_cierre": "Fecha sintética o null cuando no se ha cerrado al corte",
+    "expedientes.estado": "registro, tramitacion, pendiente_audiencia o cerrado; flujo simplificado de demostración",
+    "expedientes.resultado_simulado": "sin_resolucion, archivo, sentencia_absolutoria o sentencia_condenatoria",
+    "expedientes.municipio_codigo": "Código municipal de cinco caracteres, enlazado con INE",
+    "expedientes.distrito_codigo": "Código de dos caracteres dentro de Madrid capital; null fuera de la capital",
+    "expedientes.barrio_codigo": "Código del padrón distrito*100+barrio, con cuatro caracteres; null fuera de la capital",
+    "expedientes.longitud": "Longitud WGS84 inventada dentro de su zona; no es un domicilio",
+    "expedientes.latitud": "Latitud WGS84 inventada dentro de su zona; no es un domicilio",
+    "expedientes.origen_documental_simulado": "papel, escaneado o digital; asignación inventada",
+    "hechos.categoria_id": "ID de una de las diez etiquetas del repositorio; no implica calificación jurídica real",
+    "hechos.fecha_hecho_simulada": "Fecha sintética anterior a la apertura; puede ser del año anterior a la cohorte",
+    "hechos.condena_simulada": "Booleano; debe corresponder a una sentencia condenatoria y a su lista de hechos",
+    "sentencias.resultado_simulado": "sentencia_condenatoria o sentencia_absolutoria; archivo no genera sentencia",
+    "sentencias.firmeza_simulada": "firme en esta simplificación; no hay recursos ni historial de firmeza",
+    "sintetico": "true para todos los expedientes, hechos, sentencias y agregados judiciales"
+  },
+  "indicadores": {
+    "expedientes": "Número distinto de expedientes con al menos un hecho del filtro",
+    "hechos": "Número de hechos del filtro, independientemente del resultado",
+    "pendientes": "Expedientes del filtro no cerrados a 31/12/2025",
+    "sentencias_condenatorias": "Sentencias con al menos un hecho condenado del filtro; no personas",
+    "infracciones_condenadas": "Hechos del filtro con condena_simulada=true; no sentencias ni personas"
+  },
+  "agregados": {
+    "cohorte_apertura": "2024 o 2025; no año de sentencia ni año del hecho",
+    "categoria_id": "todos o un ID de categoría; no sumar filas de todos y categorías",
+    "nivel": "municipio para la Comunidad; distrito o barrio únicamente para Madrid capital"
+  },
+  "explorador_compacto": {
+    "casos": ["municipio_codigo", "distrito_codigo", "barrio_codigo", "cohorte_apertura", "mascara_hechos", "mascara_hechos_con_condena", "pendiente_0_1"],
+    "mascaras": "El bit i corresponde a la posición i en categorias. Hay como máximo un hecho por categoría y expediente en esta POC."
+  }
+}

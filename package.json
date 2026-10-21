@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Dossier estático sobre justicia juvenil 2025",
-  "scripts": { "test": "node scripts/check-data.cjs", "test:browser": "node scripts/browser-test.cjs" },
+  "scripts": { "test": "node scripts/check-data.cjs", "test:deck": "node scripts/check-deck.cjs", "test:madrid": "node scripts/check-madrid.cjs", "test:browser": "node scripts/browser-test.cjs" },
   "devDependencies": { "playwright": "1.62.1" }
 }

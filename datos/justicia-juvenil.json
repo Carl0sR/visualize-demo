@@ -1,6 +1,34 @@
 {
   "version": "2026-10-17",
   "year": 2025,
+  "fiscalia": {
+    "year": 2025,
+    "source": "fge",
+    "scope": "Actividad procesal de 2025. Unidades distintas; no sumar.",
+    "activity": [
+      {
+        "id": "diligencias",
+        "label": "Diligencias preliminares",
+        "value": 74538,
+        "unit": "diligencias",
+        "changePct": 10.6
+      },
+      {
+        "id": "reforma",
+        "label": "Expedientes de reforma",
+        "value": 26084,
+        "unit": "expedientes",
+        "changePct": 5.4
+      },
+      {
+        "id": "ejecucion",
+        "label": "Expedientes de ejecución",
+        "value": 14072,
+        "unit": "expedientes",
+        "changePct": 4.2
+      }
+    ]
+  },
   "categories": [
     {
       "id": "total",

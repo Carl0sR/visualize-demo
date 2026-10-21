@@ -1,0 +1,902 @@
+{
+  "fuente": "https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/2881?tip=AM&nult=1",
+  "tabla": "https://www.ine.es/jaxiT3/Tabla.htm?t=2881",
+  "fecha": "2025-01-01",
+  "datos": [
+    {
+      "codigo": "28001",
+      "nombre": "Acebeda, La",
+      "poblacion_total": 70
+    },
+    {
+      "codigo": "28002",
+      "nombre": "Ajalvir",
+      "poblacion_total": 4868
+    },
+    {
+      "codigo": "28003",
+      "nombre": "Alameda del Valle",
+      "poblacion_total": 267
+    },
+    {
+      "codigo": "28004",
+      "nombre": "Álamo, El",
+      "poblacion_total": 10594
+    },
+    {
+      "codigo": "28005",
+      "nombre": "Alcalá de Henares",
+      "poblacion_total": 203208
+    },
+    {
+      "codigo": "28006",
+      "nombre": "Alcobendas",
+      "poblacion_total": 123342
+    },
+    {
+      "codigo": "28007",
+      "nombre": "Alcorcón",
+      "poblacion_total": 175719
+    },
+    {
+      "codigo": "28008",
+      "nombre": "Aldea del Fresno",
+      "poblacion_total": 3503
+    },
+    {
+      "codigo": "28009",
+      "nombre": "Algete",
+      "poblacion_total": 21144
+    },
+    {
+      "codigo": "28010",
+      "nombre": "Alpedrete",
+      "poblacion_total": 15686
+    },
+    {
+      "codigo": "28011",
+      "nombre": "Ambite",
+      "poblacion_total": 732
+    },
+    {
+      "codigo": "28012",
+      "nombre": "Anchuelo",
+      "poblacion_total": 1414
+    },
+    {
+      "codigo": "28013",
+      "nombre": "Aranjuez",
+      "poblacion_total": 63040
+    },
+    {
+      "codigo": "28014",
+      "nombre": "Arganda del Rey",
+      "poblacion_total": 60419
+    },
+    {
+      "codigo": "28015",
+      "nombre": "Arroyomolinos",
+      "poblacion_total": 38075
+    },
+    {
+      "codigo": "28016",
+      "nombre": "Atazar, El",
+      "poblacion_total": 110
+    },
+    {
+      "codigo": "28017",
+      "nombre": "Batres",
+      "poblacion_total": 1976
+    },
+    {
+      "codigo": "28018",
+      "nombre": "Becerril de la Sierra",
+      "poblacion_total": 6737
+    },
+    {
+      "codigo": "28019",
+      "nombre": "Belmonte de Tajo",
+      "poblacion_total": 1955
+    },
+    {
+      "codigo": "28021",
+      "nombre": "Berrueco, El",
+      "poblacion_total": 795
+    },
+    {
+      "codigo": "28020",
+      "nombre": "Berzosa del Lozoya",
+      "poblacion_total": 242
+    },
+    {
+      "codigo": "28022",
+      "nombre": "Boadilla del Monte",
+      "poblacion_total": 66349
+    },
+    {
+      "codigo": "28023",
+      "nombre": "Boalo, El",
+      "poblacion_total": 8770
+    },
+    {
+      "codigo": "28024",
+      "nombre": "Braojos",
+      "poblacion_total": 233
+    },
+    {
+      "codigo": "28025",
+      "nombre": "Brea de Tajo",
+      "poblacion_total": 577
+    },
+    {
+      "codigo": "28026",
+      "nombre": "Brunete",
+      "poblacion_total": 11287
+    },
+    {
+      "codigo": "28027",
+      "nombre": "Buitrago del Lozoya",
+      "poblacion_total": 2034
+    },
+    {
+      "codigo": "28028",
+      "nombre": "Bustarviejo",
+      "poblacion_total": 2870
+    },
+    {
+      "codigo": "28029",
+      "nombre": "Cabanillas de la Sierra",
+      "poblacion_total": 961
+    },
+    {
+      "codigo": "28030",
+      "nombre": "Cabrera, La",
+      "poblacion_total": 2889
+    },
+    {
+      "codigo": "28031",
+      "nombre": "Cadalso de los Vidrios",
+      "poblacion_total": 3372
+    },
+    {
+      "codigo": "28032",
+      "nombre": "Camarma de Esteruelas",
+      "poblacion_total": 8331
+    },
+    {
+      "codigo": "28033",
+      "nombre": "Campo Real",
+      "poblacion_total": 6974
+    },
+    {
+      "codigo": "28034",
+      "nombre": "Canencia",
+      "poblacion_total": 475
+    },
+    {
+      "codigo": "28035",
+      "nombre": "Carabaña",
+      "poblacion_total": 2451
+    },
+    {
+      "codigo": "28036",
+      "nombre": "Casarrubuelos",
+      "poblacion_total": 4323
+    },
+    {
+      "codigo": "28037",
+      "nombre": "Cenicientos",
+      "poblacion_total": 2152
+    },
+    {
+      "codigo": "28038",
+      "nombre": "Cercedilla",
+      "poblacion_total": 7772
+    },
+    {
+      "codigo": "28039",
+      "nombre": "Cervera de Buitrago",
+      "poblacion_total": 165
+    },
+    {
+      "codigo": "28051",
+      "nombre": "Chapinería",
+      "poblacion_total": 2705
+    },
+    {
+      "codigo": "28052",
+      "nombre": "Chinchón",
+      "poblacion_total": 5800
+    },
+    {
+      "codigo": "28040",
+      "nombre": "Ciempozuelos",
+      "poblacion_total": 26350
+    },
+    {
+      "codigo": "28041",
+      "nombre": "Cobeña",
+      "poblacion_total": 7670
+    },
+    {
+      "codigo": "28046",
+      "nombre": "Collado Mediano",
+      "poblacion_total": 7722
+    },
+    {
+      "codigo": "28047",
+      "nombre": "Collado Villalba",
+      "poblacion_total": 67274
+    },
+    {
+      "codigo": "28043",
+      "nombre": "Colmenar de Oreja",
+      "poblacion_total": 9127
+    },
+    {
+      "codigo": "28042",
+      "nombre": "Colmenar del Arroyo",
+      "poblacion_total": 2044
+    },
+    {
+      "codigo": "28045",
+      "nombre": "Colmenar Viejo",
+      "poblacion_total": 58730
+    },
+    {
+      "codigo": "28044",
+      "nombre": "Colmenarejo",
+      "poblacion_total": 9640
+    },
+    {
+      "codigo": "28048",
+      "nombre": "Corpa",
+      "poblacion_total": 832
+    },
+    {
+      "codigo": "28049",
+      "nombre": "Coslada",
+      "poblacion_total": 80512
+    },
+    {
+      "codigo": "28050",
+      "nombre": "Cubas de la Sagra",
+      "poblacion_total": 7238
+    },
+    {
+      "codigo": "28053",
+      "nombre": "Daganzo de Arriba",
+      "poblacion_total": 10764
+    },
+    {
+      "codigo": "28054",
+      "nombre": "Escorial, El",
+      "poblacion_total": 17171
+    },
+    {
+      "codigo": "28055",
+      "nombre": "Estremera",
+      "poblacion_total": 1473
+    },
+    {
+      "codigo": "28056",
+      "nombre": "Fresnedillas de la Oliva",
+      "poblacion_total": 1883
+    },
+    {
+      "codigo": "28057",
+      "nombre": "Fresno de Torote",
+      "poblacion_total": 2561
+    },
+    {
+      "codigo": "28058",
+      "nombre": "Fuenlabrada",
+      "poblacion_total": 190076
+    },
+    {
+      "codigo": "28059",
+      "nombre": "Fuente el Saz de Jarama",
+      "poblacion_total": 7413
+    },
+    {
+      "codigo": "28060",
+      "nombre": "Fuentidueña de Tajo",
+      "poblacion_total": 2372
+    },
+    {
+      "codigo": "28061",
+      "nombre": "Galapagar",
+      "poblacion_total": 36758
+    },
+    {
+      "codigo": "28062",
+      "nombre": "Garganta de los Montes",
+      "poblacion_total": 441
+    },
+    {
+      "codigo": "28063",
+      "nombre": "Gargantilla del Lozoya y Pinilla de Buitrago",
+      "poblacion_total": 396
+    },
+    {
+      "codigo": "28064",
+      "nombre": "Gascones",
+      "poblacion_total": 252
+    },
+    {
+      "codigo": "28065",
+      "nombre": "Getafe",
+      "poblacion_total": 193238
+    },
+    {
+      "codigo": "28066",
+      "nombre": "Griñón",
+      "poblacion_total": 10799
+    },
+    {
+      "codigo": "28067",
+      "nombre": "Guadalix de la Sierra",
+      "poblacion_total": 6993
+    },
+    {
+      "codigo": "28068",
+      "nombre": "Guadarrama",
+      "poblacion_total": 17547
+    },
+    {
+      "codigo": "28069",
+      "nombre": "Hiruela, La",
+      "poblacion_total": 88
+    },
+    {
+      "codigo": "28070",
+      "nombre": "Horcajo de la Sierra-Aoslos",
+      "poblacion_total": 219
+    },
+    {
+      "codigo": "28071",
+      "nombre": "Horcajuelo de la Sierra",
+      "poblacion_total": 104
+    },
+    {
+      "codigo": "28072",
+      "nombre": "Hoyo de Manzanares",
+      "poblacion_total": 9310
+    },
+    {
+      "codigo": "28073",
+      "nombre": "Humanes de Madrid",
+      "poblacion_total": 20500
+    },
+    {
+      "codigo": "28074",
+      "nombre": "Leganés",
+      "poblacion_total": 195734
+    },
+    {
+      "codigo": "28075",
+      "nombre": "Loeches",
+      "poblacion_total": 9261
+    },
+    {
+      "codigo": "28076",
+      "nombre": "Lozoya",
+      "poblacion_total": 598
+    },
+    {
+      "codigo": "28901",
+      "nombre": "Lozoyuela-Navas-Sieteiglesias",
+      "poblacion_total": 1468
+    },
+    {
+      "codigo": "28078",
+      "nombre": "Madarcos",
+      "poblacion_total": 69
+    },
+    {
+      "codigo": "28079",
+      "nombre": "Madrid",
+      "poblacion_total": 3506730
+    },
+    {
+      "codigo": "28080",
+      "nombre": "Majadahonda",
+      "poblacion_total": 73625
+    },
+    {
+      "codigo": "28082",
+      "nombre": "Manzanares el Real",
+      "poblacion_total": 9648
+    },
+    {
+      "codigo": "28083",
+      "nombre": "Meco",
+      "poblacion_total": 15922
+    },
+    {
+      "codigo": "28084",
+      "nombre": "Mejorada del Campo",
+      "poblacion_total": 25049
+    },
+    {
+      "codigo": "28085",
+      "nombre": "Miraflores de la Sierra",
+      "poblacion_total": 7350
+    },
+    {
+      "codigo": "28086",
+      "nombre": "Molar, El",
+      "poblacion_total": 9999
+    },
+    {
+      "codigo": "28087",
+      "nombre": "Molinos, Los",
+      "poblacion_total": 4781
+    },
+    {
+      "codigo": "28088",
+      "nombre": "Montejo de la Sierra",
+      "poblacion_total": 404
+    },
+    {
+      "codigo": "28089",
+      "nombre": "Moraleja de Enmedio",
+      "poblacion_total": 5580
+    },
+    {
+      "codigo": "28090",
+      "nombre": "Moralzarzal",
+      "poblacion_total": 14772
+    },
+    {
+      "codigo": "28091",
+      "nombre": "Morata de Tajuña",
+      "poblacion_total": 8397
+    },
+    {
+      "codigo": "28092",
+      "nombre": "Móstoles",
+      "poblacion_total": 214817
+    },
+    {
+      "codigo": "28093",
+      "nombre": "Navacerrada",
+      "poblacion_total": 3311
+    },
+    {
+      "codigo": "28094",
+      "nombre": "Navalafuente",
+      "poblacion_total": 1693
+    },
+    {
+      "codigo": "28095",
+      "nombre": "Navalagamella",
+      "poblacion_total": 3169
+    },
+    {
+      "codigo": "28096",
+      "nombre": "Navalcarnero",
+      "poblacion_total": 33331
+    },
+    {
+      "codigo": "28097",
+      "nombre": "Navarredonda y San Mamés",
+      "poblacion_total": 163
+    },
+    {
+      "codigo": "28099",
+      "nombre": "Navas del Rey",
+      "poblacion_total": 3420
+    },
+    {
+      "codigo": "28100",
+      "nombre": "Nuevo Baztán",
+      "poblacion_total": 7429
+    },
+    {
+      "codigo": "28101",
+      "nombre": "Olmeda de las Fuentes",
+      "poblacion_total": 429
+    },
+    {
+      "codigo": "28102",
+      "nombre": "Orusco de Tajuña",
+      "poblacion_total": 1531
+    },
+    {
+      "codigo": "28104",
+      "nombre": "Paracuellos de Jarama",
+      "poblacion_total": 27650
+    },
+    {
+      "codigo": "28106",
+      "nombre": "Parla",
+      "poblacion_total": 137471
+    },
+    {
+      "codigo": "28107",
+      "nombre": "Patones",
+      "poblacion_total": 617
+    },
+    {
+      "codigo": "28108",
+      "nombre": "Pedrezuela",
+      "poblacion_total": 6606
+    },
+    {
+      "codigo": "28109",
+      "nombre": "Pelayos de la Presa",
+      "poblacion_total": 3195
+    },
+    {
+      "codigo": "28110",
+      "nombre": "Perales de Tajuña",
+      "poblacion_total": 3260
+    },
+    {
+      "codigo": "28111",
+      "nombre": "Pezuela de las Torres",
+      "poblacion_total": 1008
+    },
+    {
+      "codigo": "28112",
+      "nombre": "Pinilla del Valle",
+      "poblacion_total": 200
+    },
+    {
+      "codigo": "28113",
+      "nombre": "Pinto",
+      "poblacion_total": 56651
+    },
+    {
+      "codigo": "28114",
+      "nombre": "Piñuécar-Gandullas",
+      "poblacion_total": 183
+    },
+    {
+      "codigo": "28115",
+      "nombre": "Pozuelo de Alarcón",
+      "poblacion_total": 89770
+    },
+    {
+      "codigo": "28116",
+      "nombre": "Pozuelo del Rey",
+      "poblacion_total": 1302
+    },
+    {
+      "codigo": "28117",
+      "nombre": "Prádena del Rincón",
+      "poblacion_total": 146
+    },
+    {
+      "codigo": "28118",
+      "nombre": "Puebla de la Sierra",
+      "poblacion_total": 98
+    },
+    {
+      "codigo": "28902",
+      "nombre": "Puentes Viejas",
+      "poblacion_total": 759
+    },
+    {
+      "codigo": "28119",
+      "nombre": "Quijorna",
+      "poblacion_total": 4044
+    },
+    {
+      "codigo": "28120",
+      "nombre": "Rascafría",
+      "poblacion_total": 1704
+    },
+    {
+      "codigo": "28121",
+      "nombre": "Redueña",
+      "poblacion_total": 288
+    },
+    {
+      "codigo": "28122",
+      "nombre": "Ribatejada",
+      "poblacion_total": 905
+    },
+    {
+      "codigo": "28123",
+      "nombre": "Rivas-Vaciamadrid",
+      "poblacion_total": 103148
+    },
+    {
+      "codigo": "28124",
+      "nombre": "Robledillo de la Jara",
+      "poblacion_total": 118
+    },
+    {
+      "codigo": "28125",
+      "nombre": "Robledo de Chavela",
+      "poblacion_total": 4818
+    },
+    {
+      "codigo": "28126",
+      "nombre": "Robregordo",
+      "poblacion_total": 79
+    },
+    {
+      "codigo": "28127",
+      "nombre": "Rozas de Madrid, Las",
+      "poblacion_total": 99037
+    },
+    {
+      "codigo": "28128",
+      "nombre": "Rozas de Puerto Real",
+      "poblacion_total": 579
+    },
+    {
+      "codigo": "28129",
+      "nombre": "San Agustín del Guadalix",
+      "poblacion_total": 13825
+    },
+    {
+      "codigo": "28130",
+      "nombre": "San Fernando de Henares",
+      "poblacion_total": 39059
+    },
+    {
+      "codigo": "28131",
+      "nombre": "San Lorenzo de El Escorial",
+      "poblacion_total": 18872
+    },
+    {
+      "codigo": "28132",
+      "nombre": "San Martín de la Vega",
+      "poblacion_total": 21010
+    },
+    {
+      "codigo": "28133",
+      "nombre": "San Martín de Valdeiglesias",
+      "poblacion_total": 9324
+    },
+    {
+      "codigo": "28134",
+      "nombre": "San Sebastián de los Reyes",
+      "poblacion_total": 96992
+    },
+    {
+      "codigo": "28135",
+      "nombre": "Santa María de la Alameda",
+      "poblacion_total": 1584
+    },
+    {
+      "codigo": "28136",
+      "nombre": "Santorcaz",
+      "poblacion_total": 1011
+    },
+    {
+      "codigo": "28137",
+      "nombre": "Santos de la Humosa, Los",
+      "poblacion_total": 2867
+    },
+    {
+      "codigo": "28138",
+      "nombre": "Serna del Monte, La",
+      "poblacion_total": 110
+    },
+    {
+      "codigo": "28140",
+      "nombre": "Serranillos del Valle",
+      "poblacion_total": 4670
+    },
+    {
+      "codigo": "28141",
+      "nombre": "Sevilla la Nueva",
+      "poblacion_total": 9802
+    },
+    {
+      "codigo": "28143",
+      "nombre": "Somosierra",
+      "poblacion_total": 93
+    },
+    {
+      "codigo": "28144",
+      "nombre": "Soto del Real",
+      "poblacion_total": 9400
+    },
+    {
+      "codigo": "28145",
+      "nombre": "Talamanca de Jarama",
+      "poblacion_total": 4607
+    },
+    {
+      "codigo": "28146",
+      "nombre": "Tielmes",
+      "poblacion_total": 2964
+    },
+    {
+      "codigo": "28147",
+      "nombre": "Titulcia",
+      "poblacion_total": 1389
+    },
+    {
+      "codigo": "28148",
+      "nombre": "Torrejón de Ardoz",
+      "poblacion_total": 143526
+    },
+    {
+      "codigo": "28149",
+      "nombre": "Torrejón de la Calzada",
+      "poblacion_total": 10653
+    },
+    {
+      "codigo": "28150",
+      "nombre": "Torrejón de Velasco",
+      "poblacion_total": 4900
+    },
+    {
+      "codigo": "28151",
+      "nombre": "Torrelaguna",
+      "poblacion_total": 5081
+    },
+    {
+      "codigo": "28152",
+      "nombre": "Torrelodones",
+      "poblacion_total": 25433
+    },
+    {
+      "codigo": "28153",
+      "nombre": "Torremocha de Jarama",
+      "poblacion_total": 1157
+    },
+    {
+      "codigo": "28154",
+      "nombre": "Torres de la Alameda",
+      "poblacion_total": 7824
+    },
+    {
+      "codigo": "28903",
+      "nombre": "Tres Cantos",
+      "poblacion_total": 54592
+    },
+    {
+      "codigo": "28155",
+      "nombre": "Valdaracete",
+      "poblacion_total": 658
+    },
+    {
+      "codigo": "28156",
+      "nombre": "Valdeavero",
+      "poblacion_total": 1896
+    },
+    {
+      "codigo": "28157",
+      "nombre": "Valdelaguna",
+      "poblacion_total": 1122
+    },
+    {
+      "codigo": "28158",
+      "nombre": "Valdemanco",
+      "poblacion_total": 1097
+    },
+    {
+      "codigo": "28159",
+      "nombre": "Valdemaqueda",
+      "poblacion_total": 870
+    },
+    {
+      "codigo": "28160",
+      "nombre": "Valdemorillo",
+      "poblacion_total": 14420
+    },
+    {
+      "codigo": "28161",
+      "nombre": "Valdemoro",
+      "poblacion_total": 85972
+    },
+    {
+      "codigo": "28162",
+      "nombre": "Valdeolmos-Alalpardo",
+      "poblacion_total": 4626
+    },
+    {
+      "codigo": "28163",
+      "nombre": "Valdepiélagos",
+      "poblacion_total": 612
+    },
+    {
+      "codigo": "28164",
+      "nombre": "Valdetorres de Jarama",
+      "poblacion_total": 5175
+    },
+    {
+      "codigo": "28165",
+      "nombre": "Valdilecha",
+      "poblacion_total": 3289
+    },
+    {
+      "codigo": "28166",
+      "nombre": "Valverde de Alcalá",
+      "poblacion_total": 565
+    },
+    {
+      "codigo": "28167",
+      "nombre": "Velilla de San Antonio",
+      "poblacion_total": 14468
+    },
+    {
+      "codigo": "28168",
+      "nombre": "Vellón, El",
+      "poblacion_total": 2281
+    },
+    {
+      "codigo": "28169",
+      "nombre": "Venturada",
+      "poblacion_total": 2622
+    },
+    {
+      "codigo": "28171",
+      "nombre": "Villa del Prado",
+      "poblacion_total": 7743
+    },
+    {
+      "codigo": "28170",
+      "nombre": "Villaconejos",
+      "poblacion_total": 3569
+    },
+    {
+      "codigo": "28172",
+      "nombre": "Villalbilla",
+      "poblacion_total": 18687
+    },
+    {
+      "codigo": "28173",
+      "nombre": "Villamanrique de Tajo",
+      "poblacion_total": 859
+    },
+    {
+      "codigo": "28174",
+      "nombre": "Villamanta",
+      "poblacion_total": 2899
+    },
+    {
+      "codigo": "28175",
+      "nombre": "Villamantilla",
+      "poblacion_total": 1660
+    },
+    {
+      "codigo": "28176",
+      "nombre": "Villanueva de la Cañada",
+      "poblacion_total": 24028
+    },
+    {
+      "codigo": "28178",
+      "nombre": "Villanueva de Perales",
+      "poblacion_total": 1715
+    },
+    {
+      "codigo": "28177",
+      "nombre": "Villanueva del Pardillo",
+      "poblacion_total": 18466
+    },
+    {
+      "codigo": "28179",
+      "nombre": "Villar del Olmo",
+      "poblacion_total": 2341
+    },
+    {
+      "codigo": "28180",
+      "nombre": "Villarejo de Salvanés",
+      "poblacion_total": 8042
+    },
+    {
+      "codigo": "28181",
+      "nombre": "Villaviciosa de Odón",
+      "poblacion_total": 30127
+    },
+    {
+      "codigo": "28182",
+      "nombre": "Villavieja del Lozoya",
+      "poblacion_total": 332
+    },
+    {
+      "codigo": "28183",
+      "nombre": "Zarzalejo",
+      "poblacion_total": 1946
+    }
+  ]
+}

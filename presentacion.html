@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Justicia juvenil 2025 · Modo presentación</title>
+  <meta name="description" content="Presentación de siete diapositivas: estadísticas públicas de justicia juvenil y propuesta de un piloto territorial en Madrid con una demostración de datos ficticios.">
+  <link rel="stylesheet" href="assets/presentacion.css?v=20261021-1">
+</head>
+<body>
+  <div class="deck-viewport">
+    <main class="deck" id="deck" aria-label="Presentación Justicia juvenil 2025">
+      <section class="slide slide-cover" id="slide-1" aria-label="Portada: Justicia juvenil, cifras con contexto">
+        <header class="slide-top">
+          <span class="plane">Justicia juvenil · 2025</span>
+          <span class="slide-num">01 / 04</span>
+        </header>
+
+        <div class="cover-grid">
+          <div class="cover-copy">
+            <p class="kicker">Registros oficiales · España</p>
+            <h1>Justicia juvenil.<br>Cifras con<br><em>contexto.</em></h1>
+            <p class="lede">Qué registran las fuentes y qué no permiten concluir.</p>
+            <p class="hint">← → para navegar · F pantalla completa</p>
+          </div>
+
+          <aside class="cover-number" aria-label="Dato de partida">
+            <p class="micro">Un punto de partida</p>
+            <strong class="big-number" data-total>24.279</strong>
+            <p class="number-unit">infracciones vinculadas a condenas<br>registradas en 2025</p>
+            <div class="cover-rule" aria-hidden="true"></div>
+            <ol class="planes">
+              <li><span>01</span> Actividad procesal</li>
+              <li><span>02</span> Condenas registradas</li>
+              <li><span>03</span> Interpretaciones digitales</li>
+            </ol>
+          </aside>
+        </div>
+
+        <footer class="slide-source">
+          <span>Fuente: INE · Población condenada 2025 · FGE · Memoria 2026, III.6.2.</span>
+        </footer>
+      </section>
+
+      <section class="slide" id="slide-2" aria-label="Tres planos, tres unidades" hidden>
+        <header class="slide-top">
+          <span class="plane">Marco de lectura</span>
+          <span class="slide-num">02 / 04</span>
+        </header>
+
+        <h2>Tres planos, tres unidades</h2>
+        <p class="lede">No se suman ni forman un embudo.</p>
+
+        <div class="planes-grid">
+          <article class="plane-card plane-card-fiscalia">
+            <p class="plane-tag">Fiscalía</p>
+            <h3>Actividad procesal</h3>
+            <p class="plane-desc">Lo que se inicia y se tramita.</p>
+            <ul class="plane-list">
+              <li>Diligencias</li>
+              <li>Expedientes de reforma</li>
+              <li>Expedientes de ejecución</li>
+            </ul>
+          </article>
+
+          <article class="plane-card plane-card-ine">
+            <p class="plane-tag">INE</p>
+            <h3>Condenas registradas</h3>
+            <p class="plane-desc">Lo que queda inscrito en una sentencia firme.</p>
+            <ul class="plane-list">
+              <li>Infracciones</li>
+              <li>Personas condenadas</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="interpretation-band">
+          <p class="plane-tag">Interpretación</p>
+          <div>
+            <h3>Entorno digital</h3>
+            <p class="band-terms">Inmediatez · desinhibición · consentimiento</p>
+            <p class="fine">Lectura de FGE 2024 y Fiscalía de Madrid 2024; no es causal.</p>
+          </div>
+        </div>
+
+        <footer class="slide-source">
+          <span>Fuente: FGE · Memoria 2026, III.6.2 · INE · Población condenada 2025.</span>
+        </footer>
+      </section>
+
+      <section class="slide" id="slide-3" aria-label="Actividad procesal de Fiscalía" hidden>
+        <header class="slide-top">
+          <span class="plane">Fiscalía · Actividad procesal</span>
+          <span class="slide-num">03 / 04</span>
+        </header>
+
+        <h2>Lo que tramita Fiscalía</h2>
+        <p class="lede">Volumen de actividad, no de condenas.</p>
+
+        <div class="metric-grid" id="fiscalia-metrics"></div>
+        <p class="note">Unidades distintas: no se suman.</p>
+
+        <footer class="slide-source">
+          <span>Fuente: FGE · Memoria 2026, III.6.2 · Actividad de 2025. Variación anual.</span>
+        </footer>
+      </section>
+
+      <section class="slide" id="slide-4" aria-label="Comparación territorial: concentración no es tasa" hidden>
+        <header class="slide-top">
+          <span class="plane">Territorio · INE</span>
+          <span class="slide-num">04 / 04</span>
+        </header>
+
+        <h2>Concentración no es tasa</h2>
+        <p class="lede">El recuento y la tasa por población responden preguntas distintas.</p>
+
+        <div class="territory-grid">
+          <section class="territory-panel" aria-labelledby="count-title">
+            <h3 id="count-title">Infracciones registradas</h3>
+            <div class="bars" id="bars-count"></div>
+          </section>
+          <section class="territory-panel" aria-labelledby="rate-title">
+            <h3 id="rate-title">Tasa por 1.000 habitantes de 14–17</h3>
+            <div class="bars" id="bars-rate"></div>
+          </section>
+        </div>
+
+        <p class="territory-callout">Madrid concentra más recuento; Castilla y León, más tasa.</p>
+
+        <footer class="slide-source">
+          <span>Fuente: INE · Tabla 26030 y nota de prensa 2025. Lugar de condena; no residencia ni lugar de comisión. 19 territorios; <span data-total>24.279</span> infracciones.</span>
+        </footer>
+      </section>
+
+      <section class="slide" id="slide-5" aria-label="Dos referencias geográficas para preguntas diferentes" hidden>
+        <header class="slide-top"><span class="plane">Intervención · Madrid</span><span class="slide-num">05 / 07</span></header>
+        <h2>Dos mapas, dos preguntas</h2><p class="lede">La referencia geográfica cambia la lectura.</p>
+        <div class="planes-grid operational-planes">
+          <article class="plane-card plane-card-fiscalia"><p class="plane-tag">Lugar del hecho</p><h3>Actividad registrada</h3><p class="plane-desc">Dónde se registran hechos de un tipo y cómo se distribuyen.</p></article>
+          <article class="plane-card plane-card-ine"><p class="plane-tag">Residencia</p><h3>Intervención territorial</h3><p class="plane-desc">Dónde viven los destinatarios de la intervención y qué recursos contrastar.</p></article>
+        </div>
+        <p class="note">No permite inferir riesgo individual ni atribuir causas.</p>
+        <footer class="slide-source"><span>Fuente de contexto: Memoria ARRMI 2024, p. 58. El domicilio habitual se utiliza para la planificación territorial.</span></footer>
+      </section>
+      <section class="slide" id="slide-6" aria-label="Demostración de Madrid con datos judiciales ficticios" hidden>
+        <header class="slide-top"><span class="plane">Demostración · Datos ficticios</span><span class="slide-num">06 / 07</span></header>
+        <h2>Una selección, varias lecturas</h2><p class="lede">Municipio, distrito o barrio. Hechos, expedientes y sentencias, con sus unidades.</p>
+        <ol class="demo-steps"><li><span>01</span><div><h3>Explorar una zona</h3><p>Elegir tipo de hecho, periodo y referencia geográfica.</p></div></li><li><span>02</span><div><h3>Revisar el trabajo pendiente</h3><p>Ver qué documentos y localizaciones necesitan comprobación.</p></div></li><li><span>03</span><div><h3>Preparar un informe</h3><p>Conservar filtros, fecha de corte y límites de interpretación.</p></div></li></ol>
+        <a class="demo-link" href="madrid.html" target="_blank" rel="noopener">Abrir el laboratorio de Madrid →</a>
+        <footer class="slide-source"><span>POC: todos los expedientes, resultados y tareas son ficticios. Geografía y población públicas. No es una evaluación operativa.</span></footer>
+      </section>
+      <section class="slide" id="slide-7" aria-label="Propuesta de validación con el equipo profesional" hidden>
+        <header class="slide-top"><span class="plane">Propuesta de piloto</span><span class="slide-num">07 / 07</span></header>
+        <h2>La siguiente prueba es con el equipo</h2><p class="lede">Antes de incorporar documentos reales, concretar una pregunta útil y comprobar los datos.</p>
+        <div class="pilot-lines"><p><strong>Una pregunta de trabajo</strong><span>Qué necesitan decidir o explicar y a qué escala.</span></p><p><strong>Una extracción revisada</strong><span>Fechas, tipos, relaciones, estado y referencia geográfica.</span></p><p><strong>Una lectura contrastada</strong><span>Interpretar resultados con el profesional responsable.</span></p></div>
+        <footer class="slide-source"><span>Propuesta de trabajo para discutir en la reunión. No implica acceso autorizado, anonimización acreditada ni integración con sistemas judiciales.</span></footer>
+      </section>
+    </main>
+
+    <nav class="deck-controls" aria-label="Controles de presentación">
+      <button type="button" id="prev" aria-label="Diapositiva anterior" title="Anterior (←)">←</button>
+      <button type="button" id="next" aria-label="Diapositiva siguiente" title="Siguiente (→)">→</button>
+      <button type="button" id="fullscreen" aria-pressed="false" aria-label="Entrar en pantalla completa" title="Pantalla completa (F)">Pantalla completa</button>
+      <a href="index.html" target="_blank" rel="noopener" aria-label="Abrir el dossier completo">Dossier</a>
+      <a href="madrid.html" target="_blank" rel="noopener">Demo Madrid</a>
+    </nav>
+  </div>
+
+  <div class="sr-only" id="deck-status" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <p class="noscript">Este modo de presentación necesita JavaScript para navegar entre diapositivas. El dossier completo sigue disponible en <a href="index.html">index.html</a>.</p>
+  </noscript>
+
+  <!-- Clave de caché: actualizar el sufijo si se regeneran los recursos locales. -->
+  <script src="assets/data.js?v=20261021-1" defer></script>
+  <script src="assets/presentacion.js?v=20261021-1" defer></script>
+</body>
+</html>

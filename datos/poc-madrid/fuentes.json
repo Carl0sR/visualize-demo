@@ -1,0 +1,81 @@
+{
+  "fecha_descarga": "2026-10-21",
+  "repositorio": {
+    "url": "https://github.com/Carl0sR/visualize-demo",
+    "commit": "362f386395cb0b0b3cfb1d78970886188ccc78ea",
+    "uso": "solo vocabulario y revisión de estructura; no se reutilizan recuentos judiciales"
+  },
+  "municipios": {
+    "url": "https://services1.arcgis.com/nCKYwcSONQTkPA4K/arcgis/rest/services/muni/FeatureServer/0/query",
+    "parametros": {
+      "where": "CODNUT2='ES30'",
+      "outFields": "NATCODE,NAMEUNIT,CODNUT2",
+      "outSR": "4326",
+      "geometryPrecision": 5,
+      "maxAllowableOffset": 0.0001,
+      "f": "geojson"
+    },
+    "atribucion": "BDLJE CC-BY 4.0 ign.es, según servicio basado en IGN; redistribuido por ArcGIS",
+    "transformacion": "Se excluyen dos unidades especiales con NATCODE terminado en 53057 y 53058; se conservan los 179 códigos municipales 28xxx."
+  },
+  "distritos": {
+    "url": "https://services-eu1.arcgis.com/UrtTdLP2PYSxwtI6/ArcGIS/rest/services/L%C3%ADmites_administrativos_oficiales_del_Ayuntamiento_de_Madrid/FeatureServer/2/query",
+    "parametros": {
+      "where": "1=1",
+      "outFields": "*",
+      "outSR": "4326",
+      "geometryPrecision": 5,
+      "maxAllowableOffset": 0.0001,
+      "f": "geojson"
+    },
+    "atribucion": "Ayuntamiento de Madrid · límites administrativos",
+    "condiciones": "https://datos.madrid.es/dataset/900012-0-limites-administrativos-mapas/information"
+  },
+  "barrios": {
+    "url": "https://services-eu1.arcgis.com/UrtTdLP2PYSxwtI6/ArcGIS/rest/services/L%C3%ADmites_administrativos_oficiales_del_Ayuntamiento_de_Madrid/FeatureServer/1/query",
+    "parametros": {
+      "where": "1=1",
+      "outFields": "*",
+      "outSR": "4326",
+      "geometryPrecision": 5,
+      "maxAllowableOffset": 0.0001,
+      "f": "geojson"
+    },
+    "atribucion": "Ayuntamiento de Madrid · límites administrativos"
+  },
+  "poblacion_municipal": {
+    "url": "https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/2881?tip=AM&nult=1",
+    "tabla": "https://www.ine.es/jaxiT3/Tabla.htm?t=2881",
+    "seleccion": "MetaData: Municipios + Sexo Total, último dato recibido 2025; 179 municipios",
+    "condiciones": "https://www.ine.es/aviso_legal"
+  },
+  "poblacion_barrios": {
+    "url": "https://datos.madrid.es/id/api/3/action/datastore_search",
+    "parametros": {
+      "resource_id": "209163-296-padron-municipal-historico-csv",
+      "filters": {
+        "COD_EDAD_INT": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ]
+      },
+      "sort": "_id",
+      "limit": 10000
+    },
+    "filas_agregadas": 9838,
+    "fecha_poblacion": "2025-01-01",
+    "transformacion": "Suma de los cuatro campos de recuento por sexo y nacionalidad; se conserva exclusivamente población total de 14–17 años por barrio, sin esos desgloses.",
+    "atribucion": "Ayuntamiento de Madrid, Padrón municipal histórico, CC BY 4.0",
+    "recurso": "https://datos.madrid.es/id/dataset/209163-0-padron-municipal-historico/resource/209163-296-padron-municipal-historico-csv"
+  },
+  "huellas_sha256": {
+    "catalogo.json": "fd464fc7e96f024e6ecbcde2acbf16b3ba67da5c6ee5a08756a2db3d53850a51",
+    "municipios-madrid.geojson": "5ecb14e0ae7d1810cdc1cd2ea7e0d035f1b223c0174ec0000bde3a60c6b190ae",
+    "distritos-madrid.geojson": "daee62212a847702fffedc9dd7301bd801bf8205a95ab981ac3a2340ee943039",
+    "barrios-madrid.geojson": "ff0294706c6fc1ebb486eca7b7afe9eef8599d3cc7aec0acf3584ba1a9e0c1ba",
+    "poblacion-municipios-2025.json": "5885a63ca6ebcdf7f54211c0d14f29fb6ced6cedbde38c0cab8e42004b35d035",
+    "poblacion-barrios-2025.json": "67f185fe275b47312192973f112856d72812ef6d7c079c970ffb2abf6312886f"
+  }
+}
