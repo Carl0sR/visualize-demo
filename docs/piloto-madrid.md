@@ -1,5 +1,7 @@
 # Laboratorio territorial de Madrid
 
+Para entregar al personal sin conocimientos de GIS: [guía sencilla en una página A4](dossier-gis-madrid.pdf), con [texto editable](dossier-gis-madrid.md). El PDF se regenera con `python3 scripts/build-dossier-gis.py` (requiere ReportLab y la fuente Liberation Sans).
+
 Edición 21/10/2026. Prueba de concepto para conversar con profesionales de justicia juvenil y agentes sociales. Todos los expedientes, hechos, sentencias, residencias, medidas y tareas son ficticios. El sitio es público y no tiene carga de documentos, autenticación ni conexión con sistemas judiciales.
 
 ## Qué se ha incorporado
