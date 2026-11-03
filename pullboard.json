@@ -40,5 +40,6 @@
   },
   "land": {
     "gate": "node scripts/pilot/gate.cjs"
-  }
+  },
+  "affectedTests": "node --test"
 }
