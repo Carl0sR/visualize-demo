@@ -28,7 +28,7 @@ Abrir `http://localhost:8000`. También puede abrirse `index.html` directamente.
 
 ## Modo presentación (piloto)
 
-`presentacion.html` contiene cuatro diapositivas para evaluar el diseño de proyección: portada, tres planos, actividad de Fiscalía y comparación territorial. Se abre con el mismo servidor:
+`presentacion.html` contiene siete diapositivas para evaluar el diseño de proyección: portada, tres planos, actividad de Fiscalía, comparación territorial, dos mapas, demostración de Madrid y propuesta de piloto. Se abre con el mismo servidor:
 
 ```
 http://localhost:8000/presentacion.html
@@ -39,7 +39,7 @@ Navegación con flechas, `PageUp`/`PageDown`, espacio y `Inicio`/`Fin`; `F` entr
 ## Estructura
 
 - `index.html`: entrada principal.
-- `presentacion.html`: piloto de modo presentación de cuatro diapositivas.
+- `presentacion.html`: piloto de modo presentación de siete diapositivas.
 - `assets/`: estilos, comportamiento y datos del recorrido, más `presentacion.css` y `presentacion.js`.
 - `datos/`: datos normalizados, extractos CSV oficiales y transcripción del PPTX.
 - `docs/`: método, decisiones editoriales, guion de presentación y análisis previo.
