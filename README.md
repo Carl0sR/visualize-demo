@@ -71,3 +71,7 @@ GitHub Pages publica la raíz de `main`. No se modifica la configuración existe
 ## Alcance
 
 Edición 17 de octubre de 2026. No es una publicación oficial del INE o Fiscalía. Los datos oficiales y sus fuentes se atribuyen en cada sección. Los ejemplos de modalidades digitales son ilustrativos y no constituyen calificaciones jurídicas automáticas. El informe previo documenta el diagnóstico anterior a la reconstrucción de las tablas; el registro de correcciones del sitio refleja la implementación actual.
+
+## Piloto local de colaboración entre agentes
+
+Este clon contiene un piloto de Pullboard con Codex como coordinador y modelos gratuitos de OpenCode para documentación, pruebas y revisión cruzada. Abrir el tablero con `./scripts/pilot/abrir.sh`; consultar la [guía del piloto](docs/piloto-pullboard.md) para los límites, la reanudación y las pruebas realizadas. La configuración de ejecución vive junto al clon en `../pullboard-runtime/`; no forma parte del sitio publicado.
